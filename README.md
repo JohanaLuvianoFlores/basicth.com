@@ -138,7 +138,7 @@
             <h2>Videos Tutoriales</h2>
             <p>Explora videos que explican conceptos clave paso a paso:</p>
             <ul>  
-                <li><a href="https://youtu.be/wma_UplhFY4?si=V46VUoQWE4psZFbk" target="_blank">Introducción al Álgebra</a></li>
+            <li><a href="https://www.youtu.be/wma_UplhFY4?si=V46VUoQWE4psZFbk" target="_blank">Introducción al Álgebra</a></li>
                 <li><a href="https://www.youtube.com/watch?v=video2" target="_blank">Gráficas de Funciones</a></li>
                 <li><a href="https://www.youtube.com/watch?v=video3" target="_blank">Cálculo Diferencial Básico</a></li>
             </ul>
