@@ -155,3 +155,9 @@
                 <li><a href="https://www.symbolab.com" target="_blank">Symbolab: Resolver Ecuaciones</a></li>
             </ul>
       
+        </section>
+        <section id="evaluaciones">
+            <h2>Evaluaciones Básicas</h2>
+            <p>Realiza evaluaciones interactivas para medir tus conocimientos y recibe retroalimentación inmediata:</p>
+            <ul> 
+                <li><a href="http://newton.matem.unam.mx/aritmetica/index.html" target="_blank">Ejercicios y problemas de aritmética y álgebra</a></li>
