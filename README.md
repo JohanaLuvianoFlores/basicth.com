@@ -30,7 +30,7 @@
         }
         nav a:hover {
             text-decoration: underline;
-            }
+        }
         main {
             padding: 20px;
         }
@@ -113,7 +113,10 @@
                 <li><a href="http://newton.matem.unam.mx/arquimedes/index.html" target="_blank">Proyecto Arquimedes</a></li>
                 <li><a href="https://es.khanacademy.org" target="_blank">Khan Academy: Matemáticas Básicas</a></li>
                 <li><a href="http://canek.uam.mx/?secc=1" target="_blank">Introducción al cálculo</a></li>
-                
+            </ul>
+        </section>
+
+        <section id="videos">
             <h2>Videos Tutoriales</h2>
             <p>Explora videos que explican conceptos clave paso a paso:</p>
             <ul>  
@@ -185,10 +188,10 @@
         </section>
     </main>
 
-    
+    <footer>
         <p>&copy; 2024 Curso Interactivo. Todos los derechos reservados.</p>
         <p>¿Necesitas ayuda? <a href="mailto:jlf@azc.uam.mx">Contáctanos</a></p>
-    
+    </footer>
 
     <script src="script.js"></script>
 </body>
