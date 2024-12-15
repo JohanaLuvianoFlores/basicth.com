@@ -83,47 +83,59 @@
         <h1>Portal de Matemáticas Básicas</h1>
     </header>
     <nav>
-        <a href="#tareas">Tareas</a>
-        <a href="#juegos">Juegos</a>
         <a href="#material">Material del Curso</a>
         <a href="#apoyo">Página de Apoyo</a>
         <a href="#videos">Videos Tutoriales</a>
         <a href="#herramientas">Herramientas</a>
         <a href="#evaluaciones">Evaluaciones</a>
+         <a href="#tareas">Tareas</a>
+        <a href="#juegos">Juegos</a>
         <a href="#chat">Chat</a>
     </nav>
 
     <p style="text-align: center; font-weight: bold;">Esta página es privada. Por favor, envía un correo con tus datos a <a href='mailto:jlf@azc.uam.mx' style='color: blue;'>jlf@azc.uam.mx</a> para solicitar acceso.</p>
     <main>
-        <section id="material">
+               <section id="material del curso">
             <h2>Material del Curso</h2>
+            <p>Descarga documentos, guías y recursos educativos de matemáticas básicas.</p>
             <ul>
-                <li>Aritmética</li>
-                <li>Álgebra</li>
-                <li>Geometría</li>
-                <li>Geometría Analítica</li>
-                <li>Trigonometría</li>
-                <li>Funciones</li>
+                <li><a href="/materiales/guia_aritmetica.pdf" download>Guía de Aritmética</a></li>
+                <li><a href="/materiales/introduccion_algebra.pdf" download>Introducción al Álgebra</a></li>
+                <li><a href="/materiales/funciones_basicas.pdf" download>Funciones Básicas</a></li>
+                <li><a href="/materiales/matematicas_para_ingenieria.pdf" download>Matemáticas para Ingeniería</a></li>
             </ul>
         </section>
 
-        <section id="videos">
-            <h2>Videos</h2>
-            <p>Explora nuestros videos educativos:</p>
-            <ul>
-                <li><a href="https://www.youtube.com/watch?v=EXAMPLE1" target="_blank">Introducción a la Aritmética</a></li>
-                <li><a href="https://www.youtube.com/watch?v=EXAMPLE2" target="_blank">Fundamentos de Álgebra</a></li>
-                <li><a href="https://www.youtube.com/watch?v=EXAMPLE3" target="_blank">Conceptos Básicos de Geometría</a></li>
-                <li><a href="https://www.youtube.com/watch?v=EXAMPLE4" target="_blank">Geometría Analítica Avanzada</a></li>
-                <li><a href="https://www.youtube.com/watch?v=EXAMPLE5" target="_blank">Trigonometría para Ingenieros</a></li>
-                <li><a href="https://www.youtube.com/watch?v=EXAMPLE6" target="_blank">Funciones y Modelos</a></li>
+
+                <section id="videos">
+            <h2>Videos Tutoriales</h2>
+            <p>Explora videos que explican conceptos clave paso a paso:</p>
+            <ul>  
+            <li><a href="https://www.youtube.com/watch?v=MIUJPkc3x6s&list=PLoxtZmChTSdiqRdRU1OoCR264Isisxdt-">Arimétrica</a></li>
+            <li><a href="https://www.youtube.com/watch?v=e5L05pvyMr0&list=PL9SnRnlzoyX1sF5fX83CleyK_SATfbhia">Introducción al Álgebra</a></li>
+                <li><a href="https://www.youtube.com/watch?v=fZQsWTLFR5g&list=PLZeRcx60JO52LhJmL23FKZtQDjHVmtKY2">Funciones</a></li>
+                <li><a href="https://www.youtube.com/watch?v=video3" target="_blank">Cálculo Diferencial Básico</a></li>
             </ul>
         </section>
+
+
+        <section id="herramientas">
+            <h2>Herramientas Matemáticas</h2>
+            <p>Utiliza herramientas en línea para resolver problemas complejos y visualizar conceptos:</p>
+            <ul>
+                <li><a href="https://www.geogebra.org" target="_blank">GeoGebra: Herramienta Gráfica</a></li>
+                <li><a href="https://www.desmos.com" target="_blank">Desmos: Calculadora Gráfica</a></li>
+                <li><a href="https://www.symbolab.com" target="_blank">Symbolab: Resolver Ecuaciones</a></li>
+            </ul>
+        </section>
+
 
         <section id="autoevaluaciones">
             <h2>Autoevaluaciones</h2>
             <p>Pon a prueba tus conocimientos:</p>
             <ul>
+            <li><a href="http://newton.matem.unam.mx/aritmetica/index.html" target="_blank">Ejercicios y problemas de aritmética y álgebra</a></li>
+         <li><a href="http://newton.matem.unam.mx/tareas/algebraV.html" target="_blank">Autoevaluación de  álgebra</a></li>
                 <li><a href="https://es.khanacademy.org/math/arithmetic" target="_blank">Ejercicios de Aritmética</a></li>
                 <li><a href="https://es.khanacademy.org/math/algebra" target="_blank">Ejercicios de Álgebra</a></li>
                 <li><a href="https://es.khanacademy.org/math/geometry" target="_blank">Ejercicios de Geometría</a></li>
