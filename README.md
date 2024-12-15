@@ -10,7 +10,7 @@
             margin: 0;
             padding: 0;
             min-height: 100%;
-            border: 0.5cm solid #f4f4f4; /* Marco azul de 0.5 cm */
+            border: 0.5cm solid #2c3e50; /* Marco del mismo color del encabezado */
             box-sizing: border-box; /* Incluye el marco en el cálculo del tamaño */
         }
 
