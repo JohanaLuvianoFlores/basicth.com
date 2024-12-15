@@ -131,7 +131,7 @@
             <h2>Página de Apoyo</h2>
             <p>Accede a recursos adicionales para fortalecer tu aprendizaje de matemáticas:</p>
             <ul> 
-                <li><a href="http://newton.matem.unam.mx/aritmetica/index.html" target="_blank">Ejercicios y problemas de aritmética y álgebra</a></li>
+                <li><a href="http://newton.matem.unam.mx/arquimedes/index.html" target="_blank">Proyecto Arquimedes</a></li>
                 <li><a href="https://es.khanacademy.org" target="_blank">Khan Academy: Matemáticas Básicas</a></li>
                 
                  <li><a href="http://canek.uam.mx/?secc=1" target="_blank">Introducción al cálculo</a></li>
@@ -141,8 +141,9 @@
             <h2>Videos Tutoriales</h2>
             <p>Explora videos que explican conceptos clave paso a paso:</p>
             <ul>  
+            <li><a href="https://www.youtube.com/watch?v=MIUJPkc3x6s&list=PLoxtZmChTSdiqRdRU1OoCR264Isisxdt-">Arimétrica</a></li>
             <li><a href="https://www.youtube.com/watch?v=e5L05pvyMr0&list=PL9SnRnlzoyX1sF5fX83CleyK_SATfbhia">Introducción al Álgebra</a></li>
-                <li><a href="https://www.youtube.com/watch?v=video2" target="_blank">Gráficas de Funciones</a></li>
+                <li><a href="https://www.youtube.com/watch?v=fZQsWTLFR5g&list=PLZeRcx60JO52LhJmL23FKZtQDjHVmtKY2">Funciones</a></li>
                 <li><a href="https://www.youtube.com/watch?v=video3" target="_blank">Cálculo Diferencial Básico</a></li>
             </ul>
         </section>
@@ -161,3 +162,4 @@
             <p>Realiza evaluaciones interactivas para medir tus conocimientos y recibe retroalimentación inmediata:</p>
             <ul> 
                 <li><a href="http://newton.matem.unam.mx/aritmetica/index.html" target="_blank">Ejercicios y problemas de aritmética y álgebra</a></li>
+                               <li><a href="http://newton.matem.unam.mx/tareas/algebraV.html" target="_blank">Ejercicios y problemas de aritmética y álgebra</a></li>
