@@ -162,4 +162,95 @@
             <p>Realiza evaluaciones interactivas para medir tus conocimientos y recibe retroalimentación inmediata:</p>
             <ul> 
                 <li><a href="http://newton.matem.unam.mx/aritmetica/index.html" target="_blank">Ejercicios y problemas de aritmética y álgebra</a></li>
-                               <li><a href="http://newton.matem.unam.mx/tareas/algebraV.html" target="_blank">Ejercicios y problemas de aritmética y álgebra</a></li>
+                               <li><a href="http://newton.matem.unam.mx/tareas/algebraV.html" target="_blank">Autoevaluación de  álgebra</a></li>
+
+#chat-container {
+            max-width: 600px;
+            margin: 50px auto;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        #chat-messages {
+            height: 300px;
+            overflow-y: auto;
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+        .message {
+            margin: 10px 0;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        .user {
+            background: #d1f7c4;
+            text-align: right;
+        }
+        .system {
+            background: #f1f1f1;
+            text-align: left;
+        }
+        #chat-input {
+            display: flex;
+            padding: 10px;
+        }
+        #chat-input input {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+        #chat-input button {
+            padding: 10px 20px;
+            background: #2c3e50;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #chat-input button:hover {
+            background: #34495e;
+        }
+    </style>
+</head>
+<body>
+    <div id="chat-container">
+        <div id="chat-messages"></div>
+        <div id="chat-input">
+            <input type="text" id="message-input" placeholder="Escribe tu mensaje...">
+            <button onclick="sendMessage()">Enviar</button>
+        </div>
+    </div>
+
+    <script>
+        const chatMessages = document.getElementById('chat-messages');
+
+        function sendMessage() {
+            const input = document.getElementById('message-input');
+            const message = input.value.trim();
+
+            if (message) {
+                addMessage(message, 'user');
+                input.value = '';
+
+                // Simulación de respuesta automática
+                setTimeout(() => {
+                    addMessage("Gracias por tu mensaje. Estamos revisándolo.", 'system');
+                }, 1000);
+            }
+        }
+
+        function addMessage(text, type) {
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${type}`;
+            messageDiv.textContent = text;
+            chatMessages.appendChild(messageDiv);
+
+            // Desplazar hacia abajo automáticamente
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+    </script>
+</body>
+</html>
