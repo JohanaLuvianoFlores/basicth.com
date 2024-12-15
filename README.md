@@ -66,7 +66,7 @@
     <main>
         <section id="material">
             <h2>Material del Curso</h2>
-            <p>Descarga documentos, guías y recursos educativos de matemáticas básicas.</p>
+            <p>Descarga documentos y recursos educativos de matemáticas básicas.</p>
             <ul>
                 <li><a href="/materiales/Taller de Matematicas.pdf" download>Taller de Matemáticas</a></li>
                 <li><a href="/materiales/introduccion_algebra.pdf" download>Introducción al Álgebra</a></li>
