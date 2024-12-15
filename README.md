@@ -154,27 +154,4 @@
                 <li><a href="https://www.desmos.com" target="_blank">Desmos: Calculadora Gráfica</a></li>
                 <li><a href="https://www.symbolab.com" target="_blank">Symbolab: Resolver Ecuaciones</a></li>
             </ul>
-        </section>
-        <section id="evaluaciones">
-            <h2>Evaluaciones Básicas</h2>
-            <p>Realiza evaluaciones interactivas para medir tus conocimientos y recibe retroalimentación inmediata:</p>
-            <form onsubmit="return evaluar()">
-                <p>1. ¿Cuál es el resultado de 5 + 3?</p>
-                <input type="radio" name="q1" value="6"> 6<br>
-                <input type="radio" name="q1" value="8"> 8<br>
-                <input type="radio" name="q1" value="10"> 10<br>
-
-                <p>2. ¿Cuál es el valor de x en la ecuación 2x = 10?</p>
-                <input type="radio" name="q2" value="2"> 2<br>
-                <input type="radio" name="q2" value="5"> 5<br>
-                <input type="radio" name="q2" value="10"> 10<br>
-
-                <button type="submit">Enviar</button>
-            </form>
-            <p id="resultado"></p>
-            <script>
-                function evaluar() {
-                    let puntaje = 0;
-                    const respuestas = {
-                        q1: '8',
-                        q2: '5'
+      
