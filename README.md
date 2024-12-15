@@ -119,7 +119,7 @@
         <a href="#chat">Chat</a>
     </nav>
     <main>
-        <!-- Contenido principal -->
+        <!-- Sección Material del Curso -->
         <section id="material">
             <h2>Material del Curso</h2>
             <p>Descarga documentos, guías y recursos educativos de matemáticas básicas.</p>
@@ -130,10 +130,99 @@
                 <li><a href="/materiales/matematicas_para_ingenieria.pdf" download>Matemáticas para Ingeniería</a></li>
             </ul>
         </section>
+
+        <!-- Sección Página de Apoyo -->
+        <section id="apoyo">
+            <h2>Página de Apoyo</h2>
+            <p>Accede a recursos adicionales para fortalecer tu aprendizaje de matemáticas:</p>
+            <ul> 
+                <li><a href="http://newton.matem.unam.mx/arquimedes/index.html" target="_blank">Proyecto Arquimedes</a></li>
+                <li><a href="https://es.khanacademy.org" target="_blank">Khan Academy: Matemáticas Básicas</a></li>
+                <li><a href="http://canek.uam.mx/?secc=1" target="_blank">Introducción al cálculo</a></li>
+            </ul>
+        </section>
+
+        <!-- Sección Videos Tutoriales -->
+        <section id="videos">
+            <h2>Videos Tutoriales</h2>
+            <p>Explora videos que explican conceptos clave paso a paso:</p>
+            <ul>  
+                <li><a href="https://www.youtube.com/watch?v=MIUJPkc3x6s&list=PLoxtZmChTSdiqRdRU1OoCR264Isisxdt-">Aritmética</a></li>
+                <li><a href="https://www.youtube.com/watch?v=e5L05pvyMr0&list=PL9SnRnlzoyX1sF5fX83CleyK_SATfbhia">Introducción al Álgebra</a></li>
+                <li><a href="https://www.youtube.com/watch?v=fZQsWTLFR5g&list=PLZeRcx60JO52LhJmL23FKZtQDjHVmtKY2">Funciones</a></li>
+                <li><a href="https://www.youtube.com/watch?v=4T0EnQ4BiVg" target="_blank">Cálculo Diferencial Básico</a></li>
+            </ul>
+        </section>
+
+        <!-- Sección Herramientas Matemáticas -->
+        <section id="herramientas">
+            <h2>Herramientas Matemáticas</h2>
+            <p>Utiliza herramientas en línea para resolver problemas complejos y visualizar conceptos:</p>
+            <ul>
+                <li><a href="https://www.geogebra.org" target="_blank">GeoGebra: Herramienta Gráfica</a></li>
+                <li><a href="https://www.desmos.com" target="_blank">Desmos: Calculadora Gráfica</a></li>
+                <li><a href="https://www.symbolab.com" target="_blank">Symbolab: Resolver Ecuaciones</a></li>
+            </ul>
+        </section>
+
+        <!-- Sección Juegos -->
+        <section id="juegos">
+            <h2>Juegos</h2>
+            <p>Diviértete aprendiendo con estos juegos:</p>
+            <ul>
+                <li><a href="https://mathigon.org/polypad" target="_blank">Exploración Matemática</a></li>
+                <li><a href="https://brilliant.org/" target="_blank">Problemas Desafiantes para Matemáticos</a></li>
+                <li><a href="https://puzzling.stackexchange.com/" target="_blank">Puzzles y Lógica Matemática</a></li>
+                <li><a href="https://www.geogebra.org/classic" target="_blank">Geometría Interactiva</a></li>
+                <li><a href="https://mathsstarters.net/" target="_blank">Desafíos Matemáticos Rápidos</a></li>
+            </ul>
+        </section>
+
+        <!-- Sección Chat -->
+        <section id="chat">
+            <h2>Chat</h2>
+            <p>Habla con otros participantes:</p>
+            <div id="chat-box">
+                <div id="chat-messages" aria-live="polite">
+                    <!-- Aquí se mostrarán los mensajes -->
+                </div>
+                <label for="chat-message">Escribe tu mensaje:</label>
+                <textarea id="chat-message" rows="3" placeholder="Escribe tu mensaje..." required></textarea>
+                <button type="button" onclick="enviarMensaje()">Enviar</button>
+            </div>
+        </section>
     </main>
     <footer>
         <p>&copy; 2024 Curso Interactivo. Todos los derechos reservados.</p>
         <p>¿Necesitas ayuda? <a href="mailto:jlf@azc.uam.mx">Contáctanos</a></p>
     </footer>
+
+    <script>
+        function enviarMensaje() {
+            const mensajeInput = document.getElementById('chat-message');
+            const mensajesContainer = document.getElementById('chat-messages');
+
+            // Obtener el mensaje
+            const mensaje = mensajeInput.value.trim();
+
+            // Validar si el mensaje no está vacío
+            if (mensaje) {
+                // Crear un nuevo elemento para mostrar el mensaje
+                const nuevoMensaje = document.createElement('div');
+                nuevoMensaje.textContent = mensaje;
+
+                // Agregar el mensaje al contenedor
+                mensajesContainer.appendChild(nuevoMensaje);
+
+                // Limpiar el campo de texto
+                mensajeInput.value = '';
+
+                // Hacer scroll automático hacia el último mensaje
+                mensajesContainer.scrollTop = mensajesContainer.scrollHeight;
+            } else {
+                alert('Por favor, escribe un mensaje antes de enviarlo.');
+            }
+        }
+    </script>
 </body>
 </html>
