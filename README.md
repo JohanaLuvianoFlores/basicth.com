@@ -6,7 +6,12 @@
     <title>Una pequeña introducción al mundo de las matemáticas básicas para ingenieros</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body style="background-image: url('https://www.uam.mx/img/azcapotzalco_rojo_blanco.jpg'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;">
+<body style="background-image: url('https://www.uam.mx/img/azcapotzalco_rojo_blanco.jpg'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed; color: white;">
+    <div style="background-color: rgba(255, 0, 0, 0.8); padding: 20px;">
+        <div style="text-align: center; margin-bottom: 20px;">
+            <p>Esta página es privada. Por favor, envía un correo con tus datos a <a href='mailto:jlf@azc.uam.mx' style='color: yellow;'>jlf@azc.uam.mx</a> para solicitar acceso.</p>
+        </div>
+    <div style="background-color: rgba(255, 0, 0, 0.8); padding: 20px;">
     <header>
         <h1>Una pequeña introducción al mundo de las matemáticas básicas para ingenieros</h1>
         <nav>
@@ -23,19 +28,27 @@
     <main>
         <section id="material">
             <h2>Material del Curso</h2>
-            <p>Aquí encontrarás todo el material necesario para tu aprendizaje.</p>
+            <ul>
+                <li>Aritmética</li>
+                <li>Álgebra</li>
+                <li>Geometría</li>
+                <li>Geometría Analítica</li>
+                <li>Trigonometría</li>
+                <li>Funciones</li>
+            </ul>
+        </section>
         </section>
 
         <section id="videos">
             <h2>Videos</h2>
             <p>Explora nuestros videos educativos:</p>
             <ul>
-                <li><a href="https://www.youtube.com/watch?v=OzjfekXYd_g" target="_blank">Aritmética Básica</a></li>
-                <li><a href="https://www.youtube.com/watch?v=MP-_JWEp2ZM" target="_blank">Álgebra</a></li>
-                <li><a href="https://www.youtube.com/watch?v=kaoAOzNke3Q" target="_blank">Geometría</a></li>
-                <li><a href="https://www.youtube.com/watch?v=5jUTdZO3Yvc" target="_blank">Geometría Analítica</a></li>
-                <li><a href="https://www.youtube.com/watch?v=ScGwBGggSmg" target="_blank">Trigonometría</a></li>
-                <li><a href="https://www.youtube.com/watch?v=wXJGuz94Drw" target="_blank">Funciones</a></li>
+                <li><a href="https://www.youtube.com/watch?v=EXAMPLE1" target="_blank">Introducción a la Aritmética</a></li>
+                <li><a href="https://www.youtube.com/watch?v=EXAMPLE2" target="_blank">Fundamentos de Álgebra</a></li>
+                <li><a href="https://www.youtube.com/watch?v=EXAMPLE3" target="_blank">Conceptos Básicos de Geometría</a></li>
+                <li><a href="https://www.youtube.com/watch?v=EXAMPLE4" target="_blank">Geometría Analítica Avanzada</a></li>
+                <li><a href="https://www.youtube.com/watch?v=EXAMPLE5" target="_blank">Trigonometría para Ingenieros</a></li>
+                <li><a href="https://www.youtube.com/watch?v=EXAMPLE6" target="_blank">Funciones y Modelos</a></li>
             </ul>
         </section>
 
@@ -57,11 +70,11 @@
             <h2>Juegos</h2>
             <p>Diviértete aprendiendo con estos juegos:</p>
             <ul>
-                <li><a href="https://www.brainzilla.com/logic/logic-games/sudoku/" target="_blank">Sudoku</a></li>
-                <li><a href="https://www.chess.com/play" target="_blank">Ajedrez</a></li>
-                <li><a href="https://www.puzzleprime.com/" target="_blank">Rompecabezas y Problemas Lógicos</a></li>
+                <li><a href="https://mathigon.org/polypad" target="_blank">Exploración Matemática</a></li>
+                <li><a href="https://brilliant.org/" target="_blank">Problemas Desafiantes para Matemáticos</a></li>
+                <li><a href="https://puzzling.stackexchange.com/" target="_blank">Puzzles y Lógica Matemática</a></li>
                 <li><a href="https://www.geogebra.org/classic" target="_blank">Geometría Interactiva</a></li>
-                <li><a href="https://www.khanacademy.org/math" target="_blank">Juegos Matemáticos Khan Academy</a></li>
+                <li><a href="https://mathsstarters.net/" target="_blank">Desafíos Matemáticos Rápidos</a></li>
             </ul>
         </section>
 
