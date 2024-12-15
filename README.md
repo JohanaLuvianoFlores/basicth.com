@@ -6,7 +6,7 @@
     <title>Portal de Matemáticas Básicas</title>
     <style>
         /* Configuración básica del marco */
-        html, body {
+        html {
             margin: 0;
             padding: 0;
             min-height: 100%;
