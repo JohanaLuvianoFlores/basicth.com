@@ -10,6 +10,7 @@
             margin: 20px;
             padding: 20px;
             background-color: #f4f4f4;
+            border: 5px solid #2c3e50; /* Marco azul del color del encabezado */
         }
         header {
             background: #2c3e50;
@@ -37,8 +38,8 @@
             margin-bottom: 20px;
         }
         footer {
-            background: #2c3e50;
-            color: #fff;
+            background: #f4f4f4; /* Fondo neutro para el pie de página */
+            color: #000; /* Texto en negro para contraste */
             text-align: center;
             padding: 10px 20px;
             position: fixed;
@@ -59,7 +60,7 @@
             margin-bottom: 10px;
             background-color: #f9f9f9;
         }
-         #messages div {
+        #messages div {
             margin-bottom: 10px;
         }
         #chat-input {
@@ -135,7 +136,8 @@
                 <li><a href="https://www.symbolab.com" target="_blank">Symbolab: Resolver Ecuaciones</a></li>
             </ul>
         </section>
-         <section id="tareas">
+
+        <section id="tareas">
             <h2>Tareas</h2>
             <p>Aquí puedes subir y acceder a las tareas del curso de matemáticas básicas.</p>
             <form action="https://ejemplo-servidor.com/subir" method="POST" enctype="multipart/form-data">
@@ -150,7 +152,8 @@
                 <li><a href="/tareas/funciones-y-graficas.pdf" download>Funciones y Gráficas</a></li>
             </ul>
         </section>
-<section id="autoevaluaciones">
+
+        <section id="autoevaluaciones">
             <h2>Autoevaluaciones</h2>
             <p>Pon a prueba tus conocimientos:</p>
             <ul>
