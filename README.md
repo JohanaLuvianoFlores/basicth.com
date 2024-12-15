@@ -77,7 +77,7 @@
             border: none;
         }
     </style>
-</head>
+
 <body>
     <header>
         <h1>Portal de Matemáticas Básicas</h1>
