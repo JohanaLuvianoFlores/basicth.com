@@ -162,6 +162,7 @@
             <ul> 
           <li><a href="http://newton.matem.unam.mx/aritmetica/index.html" target="_blank">Ejercicios y problemas de aritmética y álgebra</a></li>
          <li><a href="http://newton.matem.unam.mx/tareas/algebraV.html" target="_blank">Autoevaluación de  álgebra</a></li>
+          <ul> 
 </section>
 </main>
 </body>
