@@ -13,17 +13,19 @@
             border: 0.5cm solid #2c3e50; /* Marco del mismo color del encabezado */
             box-sizing: border-box; /* Incluye el marco en el cálculo del tamaño */
         }
+           *, *::before, *::after {
+            box-sizing: inherit; /* Ajusta el cálculo del tamaño para todos los elementos */
+        }
 
         body {
             margin: 0;
             padding: 0;
-            height: 100%;
-            display: flex;
-            flex-direction: column;
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            min-height: 100%;
         }
-
         header {
             background: #2c3e50;
             color: #fff;
