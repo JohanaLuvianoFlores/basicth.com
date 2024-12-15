@@ -8,22 +8,19 @@
         /* Estructura básica */
         html {
             height: 100%; /* Asegura que el html cubra toda la ventana */
-            box-sizing: border-box; /* Incluye el borde en el cálculo del tamaño */
             border: 0.5cm solid #2c3e50; /* Marco azul de 0.5 cm */
+            margin: 0;
+            padding: 0;
         }
-
-        *, *::before, *::after {
-            box-sizing: inherit; /* Asegura el cálculo correcto para todos los elementos */
-        }
-
+        
         body {
             margin: 0;
             padding: 0;
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            height: 100%;
             display: flex;
             flex-direction: column;
-            min-height: 100%; /* Asegura que el contenido siempre llene la ventana */
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
         }
 
         header {
