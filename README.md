@@ -30,7 +30,7 @@
         }
         nav a:hover {
             text-decoration: underline;
-             }
+            }
         main {
             padding: 20px;
         }
@@ -60,8 +60,8 @@
             margin-bottom: 10px;
             background-color: #f9f9f9;
         }
-        #messages div {
-             margin-bottom: 10px;
+         #messages div {
+            margin-bottom: 10px;
         }
         #chat-input {
             display: flex;
@@ -89,14 +89,13 @@
         <a href="#videos">Videos Tutoriales</a>
         <a href="#herramientas">Herramientas</a>
         <a href="#evaluaciones">Evaluaciones</a>
-         <a href="#tareas">Tareas</a>
+        <a href="#tareas">Tareas</a>
         <a href="#juegos">Juegos</a>
-         <a href="#chat">Chat</a>
+        <a href="#chat">Chat</a>
     </nav>
 
-    <p style="text-align: center; font-weight: bold;">Esta página es privada. Por favor, envía un correo con tus datos a <a href='mailto:jlf@azc.uam.mx' style='color: blue;'>jlf@azc.uam.mx</a> para solicitar acceso.</p>
     <main>
-               <section id="material del curso">
+        <section id="material">
             <h2>Material del Curso</h2>
             <p>Descarga documentos, guías y recursos educativos de matemáticas básicas.</p>
             <ul>
@@ -106,29 +105,24 @@
                 <li><a href="/materiales/matematicas_para_ingenieria.pdf" download>Matemáticas para Ingeniería</a></li>
             </ul>
         </section>
-<section id="apoyo">
+
+        <section id="apoyo">
             <h2>Página de Apoyo</h2>
             <p>Accede a recursos adicionales para fortalecer tu aprendizaje de matemáticas:</p>
             <ul> 
                 <li><a href="http://newton.matem.unam.mx/arquimedes/index.html" target="_blank">Proyecto Arquimedes</a></li>
                 <li><a href="https://es.khanacademy.org" target="_blank">Khan Academy: Matemáticas Básicas</a></li>
+                <li><a href="http://canek.uam.mx/?secc=1" target="_blank">Introducción al cálculo</a></li>
                 
-                 <li><a href="http://canek.uam.mx/?secc=1" target="_blank">Introducción al cálculo</a></li>
-            </ul>
-        </section>
-
-
-                <section id="videos">
             <h2>Videos Tutoriales</h2>
             <p>Explora videos que explican conceptos clave paso a paso:</p>
             <ul>  
-             <li><a href="https://www.youtube.com/watch?v=MIUJPkc3x6s&list=PLoxtZmChTSdiqRdRU1OoCR264Isisxdt-">Arimétrica</a></li>
-            <li><a href="https://www.youtube.com/watch?v=e5L05pvyMr0&list=PL9SnRnlzoyX1sF5fX83CleyK_SATfbhia">Introducción al Álgebra</a></li>
+                <li><a href="https://www.youtube.com/watch?v=MIUJPkc3x6s&list=PLoxtZmChTSdiqRdRU1OoCR264Isisxdt-">Aritmética</a></li>
+                <li><a href="https://www.youtube.com/watch?v=e5L05pvyMr0&list=PL9SnRnlzoyX1sF5fX83CleyK_SATfbhia">Introducción al Álgebra</a></li>
                 <li><a href="https://www.youtube.com/watch?v=fZQsWTLFR5g&list=PLZeRcx60JO52LhJmL23FKZtQDjHVmtKY2">Funciones</a></li>
-                <li><a href="https://www.youtube.com/watch?v=video3" target="_blank">Cálculo Diferencial Básico</a></li>
+                <li><a href="https://www.youtube.com/watch?v=4T0EnQ4BiVg" target="_blank">Cálculo Diferencial Básico</a></li>
             </ul>
         </section>
-
 
         <section id="herramientas">
             <h2>Herramientas Matemáticas</h2>
@@ -139,7 +133,7 @@
                 <li><a href="https://www.symbolab.com" target="_blank">Symbolab: Resolver Ecuaciones</a></li>
             </ul>
         </section>
-     <section id="tareas">
+         <section id="tareas">
             <h2>Tareas</h2>
             <p>Aquí puedes subir y acceder a las tareas del curso de matemáticas básicas.</p>
             <form action="https://ejemplo-servidor.com/subir" method="POST" enctype="multipart/form-data">
@@ -154,12 +148,12 @@
                 <li><a href="/tareas/funciones-y-graficas.pdf" download>Funciones y Gráficas</a></li>
             </ul>
         </section>
-        <section id="autoevaluaciones">
+<section id="autoevaluaciones">
             <h2>Autoevaluaciones</h2>
             <p>Pon a prueba tus conocimientos:</p>
             <ul>
-            <li><a href="http://newton.matem.unam.mx/aritmetica/index.html" target="_blank">Ejercicios y problemas de aritmética y álgebra</a></li>
-         <li><a href="http://newton.matem.unam.mx/tareas/algebraV.html" target="_blank">Autoevaluación de  álgebra</a></li>
+                <li><a href="http://newton.matem.unam.mx/aritmetica/index.html" target="_blank">Ejercicios y problemas de aritmética y álgebra</a></li>
+                <li><a href="http://newton.matem.unam.mx/tareas/algebraV.html" target="_blank">Autoevaluación de álgebra</a></li>
                 <li><a href="https://es.khanacademy.org/math/arithmetic" target="_blank">Ejercicios de Aritmética</a></li>
                 <li><a href="https://es.khanacademy.org/math/algebra" target="_blank">Ejercicios de Álgebra</a></li>
                 <li><a href="https://es.khanacademy.org/math/geometry" target="_blank">Ejercicios de Geometría</a></li>
@@ -185,16 +179,16 @@
             <h2>Chat</h2>
             <p>Habla con otros participantes:</p>
             <div id="chat-box">
-               <button onclick="enviarMensaje()">Enviar</button>
+                <textarea id="chat-input" placeholder="Escribe tu mensaje..."></textarea>
+                <button onclick="enviarMensaje()">Enviar</button>
             </div>
-              </section>   <textarea id="chat-input" placeholder="Escribe tu mensaje..."></textarea>
-              
+        </section>
     </main>
 
-   
+    <footer>
         <p>&copy; 2024 Curso Interactivo. Todos los derechos reservados.</p>
         <p>¿Necesitas ayuda? <a href="mailto:jlf@azc.uam.mx">Contáctanos</a></p>
-   
+    </footer>
 
     <script src="script.js"></script>
 </body>
