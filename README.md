@@ -131,7 +131,9 @@
             <h2>Página de Apoyo</h2>
             <p>Accede a recursos adicionales para fortalecer tu aprendizaje de matemáticas:</p>
             <ul> 
+                <li><a href="http://newton.matem.unam.mx/aritmetica/index.html" target="_blank">Khan Academy: Matemáticas Básicas</a></li>
                 <li><a href="https://es.khanacademy.org" target="_blank">Khan Academy: Matemáticas Básicas</a></li>
+                
                  <li><a href="http://canek.uam.mx/Calculo1/TCalculo1.php" target="_blank">Khan Academy: Matemáticas Básicas</a></li>
             </ul>
         </section>
