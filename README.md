@@ -105,6 +105,16 @@
                 <li><a href="/materiales/matematicas_para_ingenieria.pdf" download>Matemáticas para Ingeniería</a></li>
             </ul>
         </section>
+<section id="apoyo">
+            <h2>Página de Apoyo</h2>
+            <p>Accede a recursos adicionales para fortalecer tu aprendizaje de matemáticas:</p>
+            <ul> 
+                <li><a href="http://newton.matem.unam.mx/arquimedes/index.html" target="_blank">Proyecto Arquimedes</a></li>
+                <li><a href="https://es.khanacademy.org" target="_blank">Khan Academy: Matemáticas Básicas</a></li>
+                
+                 <li><a href="http://canek.uam.mx/?secc=1" target="_blank">Introducción al cálculo</a></li>
+            </ul>
+        </section>
 
 
                 <section id="videos">
