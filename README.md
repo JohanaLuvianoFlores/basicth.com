@@ -38,8 +38,8 @@
             margin-bottom: 20px;
         }
         footer {
-            background: #f4f4f4;
-            color: #000;
+            background: #f4f4f4; /* Fondo neutro para el pie de página */
+            color: #000; /* Texto en negro para contraste */
             text-align: center;
             padding: 10px 20px;
             position: fixed;
@@ -96,17 +96,66 @@
     </nav>
 
     <main>
+        <!-- Sección Material del Curso -->
         <section id="material">
             <h2>Material del Curso</h2>
             <p>Descarga documentos, guías y recursos educativos de matemáticas básicas.</p>
             <ul>
-                <li><a href="/materiales/guia_aritmetica.pdf" download>Guía de Aritmética</a></li>
+                <li><a href="/materiales/Taller de Matematicas.pdf" download>Taller de Matemáticas</a></li>
                 <li><a href="/materiales/introduccion_algebra.pdf" download>Introducción al Álgebra</a></li>
                 <li><a href="/materiales/funciones_basicas.pdf" download>Funciones Básicas</a></li>
                 <li><a href="/materiales/matematicas_para_ingenieria.pdf" download>Matemáticas para Ingeniería</a></li>
             </ul>
         </section>
 
+        <!-- Sección Página de Apoyo -->
+        <section id="apoyo">
+            <h2>Página de Apoyo</h2>
+            <p>Accede a recursos adicionales para fortalecer tu aprendizaje de matemáticas:</p>
+            <ul> 
+                <li><a href="http://newton.matem.unam.mx/arquimedes/index.html" target="_blank">Proyecto Arquimedes</a></li>
+                <li><a href="https://es.khanacademy.org" target="_blank">Khan Academy: Matemáticas Básicas</a></li>
+                <li><a href="http://canek.uam.mx/?secc=1" target="_blank">Introducción al cálculo</a></li>
+            </ul>
+        </section>
+
+        <!-- Sección Videos Tutoriales -->
+        <section id="videos">
+            <h2>Videos Tutoriales</h2>
+            <p>Explora videos que explican conceptos clave paso a paso:</p>
+            <ul>  
+                <li><a href="https://www.youtube.com/watch?v=MIUJPkc3x6s&list=PLoxtZmChTSdiqRdRU1OoCR264Isisxdt-">Aritmética</a></li>
+                <li><a href="https://www.youtube.com/watch?v=e5L05pvyMr0&list=PL9SnRnlzoyX1sF5fX83CleyK_SATfbhia">Introducción al Álgebra</a></li>
+                <li><a href="https://www.youtube.com/watch?v=fZQsWTLFR5g&list=PLZeRcx60JO52LhJmL23FKZtQDjHVmtKY2">Funciones</a></li>
+                <li><a href="https://www.youtube.com/watch?v=4T0EnQ4BiVg" target="_blank">Cálculo Diferencial Básico</a></li>
+            </ul>
+        </section>
+
+        <!-- Sección Herramientas Matemáticas -->
+        <section id="herramientas">
+            <h2>Herramientas Matemáticas</h2>
+            <p>Utiliza herramientas en línea para resolver problemas complejos y visualizar conceptos:</p>
+            <ul>
+                <li><a href="https://www.geogebra.org" target="_blank">GeoGebra: Herramienta Gráfica</a></li>
+                <li><a href="https://www.desmos.com" target="_blank">Desmos: Calculadora Gráfica</a></li>
+                <li><a href="https://www.symbolab.com" target="_blank">Symbolab: Resolver Ecuaciones</a></li>
+            </ul>
+        </section>
+
+        <!-- Sección Juegos -->
+        <section id="juegos">
+            <h2>Juegos</h2>
+            <p>Diviértete aprendiendo con estos juegos:</p>
+            <ul>
+                <li><a href="https://mathigon.org/polypad" target="_blank">Exploración Matemática</a></li>
+                <li><a href="https://brilliant.org/" target="_blank">Problemas Desafiantes para Matemáticos</a></li>
+                <li><a href="https://puzzling.stackexchange.com/" target="_blank">Puzzles y Lógica Matemática</a></li>
+                <li><a href="https://www.geogebra.org/classic" target="_blank">Geometría Interactiva</a></li>
+                <li><a href="https://mathsstarters.net/" target="_blank">Desafíos Matemáticos Rápidos</a></li>
+            </ul>
+        </section>
+
+        <!-- Sección Chat -->
         <section id="chat">
             <h2>Chat</h2>
             <p>Habla con otros participantes:</p>
