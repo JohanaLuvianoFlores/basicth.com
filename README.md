@@ -5,14 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portal de Matemáticas Básicas</title>
     <style>
-        /* Estructura básica */
+        /* Configuración básica del marco */
         html {
-            height: 100%; /* Asegura que el html cubra toda la ventana */
+            height: 100%;
             border: 0.5cm solid #2c3e50; /* Marco azul de 0.5 cm */
             margin: 0;
             padding: 0;
         }
-        
+
+        *, *::before, *::after {
+            box-sizing: border-box; /* Asegura que el marco se ajuste correctamente */
+        }
+
         body {
             margin: 0;
             padding: 0;
@@ -47,7 +51,7 @@
         }
 
         main {
-            flex-grow: 1; /* Ocupa el espacio restante */
+            flex-grow: 1; /* Permite que el contenido principal ocupe todo el espacio necesario */
             padding: 20px;
         }
 
@@ -151,17 +155,6 @@
             </ul>
         </section>
 
-        <!-- Sección Herramientas Matemáticas -->
-        <section id="herramientas">
-            <h2>Herramientas Matemáticas</h2>
-            <p>Utiliza herramientas en línea para resolver problemas complejos y visualizar conceptos:</p>
-            <ul>
-                <li><a href="https://www.geogebra.org" target="_blank">GeoGebra: Herramienta Gráfica</a></li>
-                <li><a href="https://www.desmos.com" target="_blank">Desmos: Calculadora Gráfica</a></li>
-                <li><a href="https://www.symbolab.com" target="_blank">Symbolab: Resolver Ecuaciones</a></li>
-            </ul>
-        </section>
-
         <!-- Sección Juegos -->
         <section id="juegos">
             <h2>Juegos</h2>
@@ -170,8 +163,6 @@
                 <li><a href="https://mathigon.org/polypad" target="_blank">Exploración Matemática</a></li>
                 <li><a href="https://brilliant.org/" target="_blank">Problemas Desafiantes para Matemáticos</a></li>
                 <li><a href="https://puzzling.stackexchange.com/" target="_blank">Puzzles y Lógica Matemática</a></li>
-                <li><a href="https://www.geogebra.org/classic" target="_blank">Geometría Interactiva</a></li>
-                <li><a href="https://mathsstarters.net/" target="_blank">Desafíos Matemáticos Rápidos</a></li>
             </ul>
         </section>
 
@@ -199,22 +190,12 @@
             const mensajeInput = document.getElementById('chat-message');
             const mensajesContainer = document.getElementById('chat-messages');
 
-            // Obtener el mensaje
             const mensaje = mensajeInput.value.trim();
-
-            // Validar si el mensaje no está vacío
             if (mensaje) {
-                // Crear un nuevo elemento para mostrar el mensaje
                 const nuevoMensaje = document.createElement('div');
                 nuevoMensaje.textContent = mensaje;
-
-                // Agregar el mensaje al contenedor
                 mensajesContainer.appendChild(nuevoMensaje);
-
-                // Limpiar el campo de texto
                 mensajeInput.value = '';
-
-                // Hacer scroll automático hacia el último mensaje
                 mensajesContainer.scrollTop = mensajesContainer.scrollHeight;
             } else {
                 alert('Por favor, escribe un mensaje antes de enviarlo.');
