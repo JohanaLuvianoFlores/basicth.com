@@ -164,8 +164,10 @@
          <li><a href="http://newton.matem.unam.mx/tareas/algebraV.html" target="_blank">Autoevaluación de  álgebra</a></li>
            </ul>
         </section>
+        </main>
           <footer> 
         <p>&copy; 2024 Página de Matemáticas y Juegos Mentales. Todos los derechos reservados.</p>
     </footer>
+    
 </body>
 </html>
