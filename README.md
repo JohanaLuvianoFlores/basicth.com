@@ -5,53 +5,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portal de Matemáticas Básicas</title>
     <style>
+        /* Estructura básica */
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%; /* Ocupa toda la altura de la ventana */
+            display: flex;
+            flex-direction: column; /* Diseño en columna */
+        }
+
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
-            padding: 20px;
             background-color: #f4f4f4;
             border: 0.5cm solid #2c3e50; /* Marco azul de 0.5 cm */
         }
+
         header {
             background: #2c3e50;
             color: #fff;
             padding: 10px 20px;
             text-align: center;
         }
+
         nav {
             background: #34495e;
             padding: 10px 20px;
             text-align: center;
         }
+
         nav a {
             color: #fff;
             text-decoration: none;
             margin: 0 10px;
         }
+
         nav a:hover {
             text-decoration: underline;
         }
+
         main {
+            flex-grow: 1; /* Ocupa el espacio disponible */
             padding: 20px;
         }
+
         section {
             margin-bottom: 20px;
         }
+
         footer {
             background: #f4f4f4; /* Fondo neutro para el pie de página */
             color: #000; /* Texto en negro para contraste */
             text-align: center;
             padding: 10px 20px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
         }
+
         #chat-box {
             border: 1px solid #ccc;
             padding: 10px;
             margin-top: 20px;
             background-color: #fff;
         }
+
         #chat-messages {
             height: 200px;
             overflow-y: auto;
@@ -60,14 +74,17 @@
             padding: 10px;
             background-color: #f9f9f9;
         }
+
         #chat-messages div {
             margin-bottom: 10px;
         }
+
         #chat-message {
             width: calc(100% - 110px);
             margin-right: 10px;
             resize: none;
         }
+
         button {
             padding: 10px;
             background-color: #2c3e50;
@@ -75,6 +92,7 @@
             border: none;
             cursor: pointer;
         }
+
         button:hover {
             background-color: #34495e;
         }
@@ -131,9 +149,9 @@
             </ul>
         </section>
 
-        <!-- Sección Herramientas Matemáticas -->
+        <!-- Sección Herramientas -->
         <section id="herramientas">
-            <h2>Herramientas Matemáticas</h2>
+            <h2>Herramientas</h2>
             <p>Utiliza herramientas en línea para resolver problemas complejos y visualizar conceptos:</p>
             <ul>
                 <li><a href="https://www.geogebra.org" target="_blank">GeoGebra: Herramienta Gráfica</a></li>
