@@ -68,7 +68,7 @@
             <h2>Material del Curso</h2>
             <p>Descarga documentos, guías y recursos educativos de matemáticas básicas.</p>
             <ul>
-                <li><a href="/materiales/guia_aritmetica.pdf" download>Guía de Aritmética</a></li>
+                <li><a href="/materiales/Taller de Matematicas.pdf" download>Taller de Matemáticas</a></li>
                 <li><a href="/materiales/introduccion_algebra.pdf" download>Introducción al Álgebra</a></li>
                 <li><a href="/materiales/funciones_basicas.pdf" download>Funciones Básicas</a></li>
                 <li><a href="/materiales/matematicas_para_ingenieria.pdf" download>Matemáticas para Ingeniería</a></li>
