@@ -6,39 +6,8 @@
     <title>Una pequeña introducción al mundo de las matemáticas básicas para ingenieros</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body style="background-color: white; color: black;">
-    <header style="background-color: red; color: white; padding: 20px; text-align: center;">
-        <h1>Una pequeña introducción al mundo de las matemáticas básicas para ingenieros</h1>
-        <p>Esta página es privada. Por favor, envía un correo con tus datos a <a href='mailto:jlf@azc.uam.mx' style='color: yellow;'>jlf@azc.uam.mx</a> para solicitar acceso.</p>
-        <nav>
-            <ul style="list-style: none; padding: 0; display: flex; justify-content: center;">
-                <li style="margin: 0 10px;"><a href="#material" style="color: white; text-decoration: none;">Material del Curso</a></li>
-                <li style="margin: 0 10px;"><a href="#videos" style="color: white; text-decoration: none;">Videos</a></li>
-                <li style="margin: 0 10px;"><a href="#autoevaluaciones" style="color: white; text-decoration: none;">Autoevaluaciones</a></li>
-                <li style="margin: 0 10px;"><a href="#juegos" style="color: white; text-decoration: none;">Juegos</a></li>
-                <li style="margin: 0 10px;"><a href="#chat" style="color: white; text-decoration: none;">Chat</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <div style="background-color: rgba(255, 0, 0, 0.8); padding: 20px;">
-        <div style="text-align: center; margin-bottom: 20px;">
-            <p>Esta página es privada. Por favor, envía un correo con tus datos a <a href='mailto:jlf@azc.uam.mx' style='color: yellow;'>jlf@azc.uam.mx</a> para solicitar acceso.</p>
-        </div>
-    <div style="background-color: rgba(255, 0, 0, 0.8); padding: 20px;">
-    <header>
-        <h1>Una pequeña introducción al mundo de las matemáticas básicas para ingenieros</h1>
-        <nav>
-            <ul>
-                <li><a href="#material">Material del Curso</a></li>
-                <li><a href="#videos">Videos</a></li>
-                <li><a href="#autoevaluaciones">Autoevaluaciones</a></li>
-                <li><a href="#juegos">Juegos</a></li>
-                <li><a href="#chat">Chat</a></li>
-            </ul>
-        </nav>
-    </header>
-
+<body style="background-color: white; color: black; border: 5px solid blue;">
+    <p style="text-align: center; font-weight: bold;">Esta página es privada. Por favor, envía un correo con tus datos a <a href='mailto:jlf@azc.uam.mx' style='color: blue;'>jlf@azc.uam.mx</a> para solicitar acceso.</p>
     <main>
         <section id="material">
             <h2>Material del Curso</h2>
@@ -50,7 +19,6 @@
                 <li>Trigonometría</li>
                 <li>Funciones</li>
             </ul>
-        </section>
         </section>
 
         <section id="videos">
@@ -77,7 +45,6 @@
                 <li><a href="https://es.khanacademy.org/math/trigonometry" target="_blank">Ejercicios de Trigonometría</a></li>
                 <li><a href="https://es.khanacademy.org/math/precalculus/precalc-functions" target="_blank">Ejercicios de Funciones</a></li>
             </ul>
-            <button onclick="iniciarAutoevaluacion()">Iniciar Autoevaluación</button>
         </section>
 
         <section id="juegos">
@@ -96,10 +63,10 @@
             <h2>Chat</h2>
             <p>Habla con otros participantes:</p>
             <div id="chat-box">
-                <textarea id="chat-input" placeholder="Escribe tu mensaje..."></textarea>
-                <button onclick="enviarMensaje()">Enviar</button>
+               <button onclick="enviarMensaje()">Enviar</button>
             </div>
-        </section>
+        </sectio   <textarea id="chat-input" placeholder="Escribe tu mensaje..."></textarea>
+              n>
     </main>
 
     <footer>
