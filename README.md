@@ -6,7 +6,7 @@
     <title>Una pequeña introducción al mundo de las matemáticas básicas para ingenieros</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body style="background-image: url('https://www.uam.mx/img/azcapotzalco_rojo_blanco.jpg'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;">
     <header>
         <h1>Una pequeña introducción al mundo de las matemáticas básicas para ingenieros</h1>
         <nav>
