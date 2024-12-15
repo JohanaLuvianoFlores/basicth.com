@@ -6,7 +6,21 @@
     <title>Una pequeña introducción al mundo de las matemáticas básicas para ingenieros</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body style="background-image: url('https://www.uam.mx/img/azcapotzalco_rojo_blanco.jpg'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed; color: white;">
+<body style="background-color: white; color: black;">
+    <header style="background-color: red; color: white; padding: 20px; text-align: center;">
+        <h1>Una pequeña introducción al mundo de las matemáticas básicas para ingenieros</h1>
+        <p>Esta página es privada. Por favor, envía un correo con tus datos a <a href='mailto:jlf@azc.uam.mx' style='color: yellow;'>jlf@azc.uam.mx</a> para solicitar acceso.</p>
+        <nav>
+            <ul style="list-style: none; padding: 0; display: flex; justify-content: center;">
+                <li style="margin: 0 10px;"><a href="#material" style="color: white; text-decoration: none;">Material del Curso</a></li>
+                <li style="margin: 0 10px;"><a href="#videos" style="color: white; text-decoration: none;">Videos</a></li>
+                <li style="margin: 0 10px;"><a href="#autoevaluaciones" style="color: white; text-decoration: none;">Autoevaluaciones</a></li>
+                <li style="margin: 0 10px;"><a href="#juegos" style="color: white; text-decoration: none;">Juegos</a></li>
+                <li style="margin: 0 10px;"><a href="#chat" style="color: white; text-decoration: none;">Chat</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <div style="background-color: rgba(255, 0, 0, 0.8); padding: 20px;">
         <div style="text-align: center; margin-bottom: 20px;">
             <p>Esta página es privada. Por favor, envía un correo con tus datos a <a href='mailto:jlf@azc.uam.mx' style='color: yellow;'>jlf@azc.uam.mx</a> para solicitar acceso.</p>
