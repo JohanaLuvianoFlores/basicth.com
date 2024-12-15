@@ -7,8 +7,9 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
+            margin: 20px;
+            border: 10px solid blue;
+            padding: 20px;
             background-color: #f4f4f4;
         }
         header {
@@ -29,7 +30,7 @@
         }
         nav a:hover {
             text-decoration: underline;
-        }
+             }
         main {
             padding: 20px;
         }
@@ -60,7 +61,7 @@
             background-color: #f9f9f9;
         }
         #messages div {
-            margin-bottom: 10px;
+             margin-bottom: 10px;
         }
         #chat-input {
             display: flex;
@@ -90,7 +91,7 @@
         <a href="#evaluaciones">Evaluaciones</a>
          <a href="#tareas">Tareas</a>
         <a href="#juegos">Juegos</a>
-        <a href="#chat">Chat</a>
+         <a href="#chat">Chat</a>
     </nav>
 
     <p style="text-align: center; font-weight: bold;">Esta página es privada. Por favor, envía un correo con tus datos a <a href='mailto:jlf@azc.uam.mx' style='color: blue;'>jlf@azc.uam.mx</a> para solicitar acceso.</p>
@@ -121,7 +122,7 @@
             <h2>Videos Tutoriales</h2>
             <p>Explora videos que explican conceptos clave paso a paso:</p>
             <ul>  
-            <li><a href="https://www.youtube.com/watch?v=MIUJPkc3x6s&list=PLoxtZmChTSdiqRdRU1OoCR264Isisxdt-">Arimétrica</a></li>
+             <li><a href="https://www.youtube.com/watch?v=MIUJPkc3x6s&list=PLoxtZmChTSdiqRdRU1OoCR264Isisxdt-">Arimétrica</a></li>
             <li><a href="https://www.youtube.com/watch?v=e5L05pvyMr0&list=PL9SnRnlzoyX1sF5fX83CleyK_SATfbhia">Introducción al Álgebra</a></li>
                 <li><a href="https://www.youtube.com/watch?v=fZQsWTLFR5g&list=PLZeRcx60JO52LhJmL23FKZtQDjHVmtKY2">Funciones</a></li>
                 <li><a href="https://www.youtube.com/watch?v=video3" target="_blank">Cálculo Diferencial Básico</a></li>
@@ -153,8 +154,6 @@
                 <li><a href="/tareas/funciones-y-graficas.pdf" download>Funciones y Gráficas</a></li>
             </ul>
         </section>
-
-
         <section id="autoevaluaciones">
             <h2>Autoevaluaciones</h2>
             <p>Pon a prueba tus conocimientos:</p>
@@ -188,7 +187,7 @@
             <div id="chat-box">
                <button onclick="enviarMensaje()">Enviar</button>
             </div>
-        </sectio   <textarea id="chat-input" placeholder="Escribe tu mensaje..."></textarea>
+              </sectio   <textarea id="chat-input" placeholder="Escribe tu mensaje..."></textarea>
               n>
     </main>
 
