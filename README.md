@@ -5,79 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portal de Matemáticas Básicas</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            padding: 20px;
-            background-color: #f4f4f4;
-            border: 5px solid #2c3e50; /* Marco azul del color del encabezado */
-        }
-        header {
-            background: #2c3e50;
-            color: #fff;
-            padding: 10px 20px;
-            text-align: center;
-        }
-        nav {
-            background: #34495e;
-            padding: 10px 20px;
-            text-align: center;
-        }
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 10px;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        main {
-            padding: 20px;
-        }
-        section {
-            margin-bottom: 20px;
-        }
-        footer {
-            background: #f4f4f4; /* Fondo neutro para el pie de página */
-            color: #000; /* Texto en negro para contraste */
-            text-align: center;
-            padding: 10px 20px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-        #chat-container {
-            margin-top: 20px;
-            border: 1px solid #ccc;
-            padding: 10px;
-            background-color: #fff;
-        }
-        #messages {
-            height: 200px;
-            overflow-y: scroll;
-            border: 1px solid #ccc;
-            padding: 5px;
-            margin-bottom: 10px;
-            background-color: #f9f9f9;
-        }
-        #messages div {
-            margin-bottom: 10px;
-        }
-        #chat-input {
-            display: flex;
-        }
-        #chat-input input {
-            flex: 1;
-            padding: 10px;
-            border: 1px solid #ccc;
-        }
-        #chat-input button {
-            padding: 10px;
-            background-color: #2c3e50;
-            color: white;
-            border: none;
-        }
-    </style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        padding: 20px;
+        background-color: #f4f4f4;
+        border: 0.5cm solid #2c3e50; /* Marco azul de 0.5 cm */
+    }
+    header {
+        background: #2c3e50;
+        color: #fff;
+        padding: 10px 20px;
+        text-align: center;
+    }
+    nav {
+        background: #34495e;
+        padding: 10px 20px;
+        text-align: center;
+    }
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+    nav a:hover {
+        text-decoration: underline;
+    }
+    main {
+        padding: 20px;
+    }
+    section {
+        margin-bottom: 20px;
+    }
+    footer {
+        background: #f4f4f4; /* Fondo neutro para el pie de página */
+        color: #000; /* Texto en negro para contraste */
+        text-align: center;
+        padding: 10px 20px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+</style>
 </head>
 <body>
     <header>
