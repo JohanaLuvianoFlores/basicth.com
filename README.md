@@ -6,15 +6,10 @@
     <title>Portal de Matemáticas Básicas</title>
     <style>
         /* Configuración básica del marco */
-        html {
-            height: 100%;
-            border: 0.5cm solid #2c3e50; /* Marco azul de 0.5 cm */
+        html, body {
             margin: 0;
             padding: 0;
-        }
-
-        *, *::before, *::after {
-            box-sizing: border-box; /* Asegura que el marco se ajuste correctamente */
+            min-height: 100%;
         }
 
         body {
