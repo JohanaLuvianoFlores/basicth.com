@@ -191,8 +191,8 @@
     </main>
 
     <footer>
-        <p>&copy; 2024 Curso Interactivo. Todos los derechos reservados.</p>
-        <p>¿Necesitas ayuda? <a href="mailto:jlf@azc.uam.mx">Contáctanos</a></p>
+       <p>&copy; 2024 Curso Interactivo. Todos los derechos reservados.</p>
+    <p>¿Necesitas ayuda? <a href="mailto:jlf@azc.uam.mx">Contáctanos</a></p>
     </footer>
 
     <script src="script.js"></script>
