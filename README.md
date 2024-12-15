@@ -5,48 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portal de Matemáticas Básicas</title>
     <style>
-    body {
-        font-family: Arial, sans-serif;
-        margin: 20px;
-        padding: 20px;
-        background-color: #f4f4f4;
-        border: 0.5cm solid #2c3e50; /* Marco azul de 0.5 cm */
-    }
-    header {
-        background: #2c3e50;
-        color: #fff;
-        padding: 10px 20px;
-        text-align: center;
-    }
-    nav {
-        background: #34495e;
-        padding: 10px 20px;
-        text-align: center;
-    }
-    nav a {
-        color: #fff;
-        text-decoration: none;
-        margin: 0 10px;
-    }
-    nav a:hover {
-        text-decoration: underline;
-    }
-    main {
-        padding: 20px;
-    }
-    section {
-        margin-bottom: 20px;
-    }
-    footer {
-        background: #f4f4f4; /* Fondo neutro para el pie de página */
-        color: #000; /* Texto en negro para contraste */
-        text-align: center;
-        padding: 10px 20px;
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-    }
-</style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+            border: 0.5cm solid #2c3e50; /* Marco azul de 0.5 cm */
+        }
+        header {
+            background: #2c3e50;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            background: #34495e;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        footer {
+            background: #f4f4f4; /* Fondo neutro para el pie de página */
+            color: #000; /* Texto en negro para contraste */
+            text-align: center;
+            padding: 10px 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -122,21 +122,6 @@
             </ul>
         </section>
 
-        <section id="autoevaluaciones">
-            <h2>Autoevaluaciones</h2>
-            <p>Pon a prueba tus conocimientos:</p>
-            <ul>
-                <li><a href="http://newton.matem.unam.mx/aritmetica/index.html" target="_blank">Ejercicios y problemas de aritmética y álgebra</a></li>
-                <li><a href="http://newton.matem.unam.mx/tareas/algebraV.html" target="_blank">Autoevaluación de álgebra</a></li>
-                <li><a href="https://es.khanacademy.org/math/arithmetic" target="_blank">Ejercicios de Aritmética</a></li>
-                <li><a href="https://es.khanacademy.org/math/algebra" target="_blank">Ejercicios de Álgebra</a></li>
-                <li><a href="https://es.khanacademy.org/math/geometry" target="_blank">Ejercicios de Geometría</a></li>
-                <li><a href="https://es.khanacademy.org/math/geometry/hs-geo-analytic-geometry/hs-geo-parallel-perpendicular-eq/test/hs-geo-analytic-geometry-unit-test" target="_blank">Ejercicios de Geometría Analítica</a></li>
-                <li><a href="https://es.khanacademy.org/math/trigonometry" target="_blank">Ejercicios de Trigonometría</a></li>
-                <li><a href="https://es.khanacademy.org/math/precalculus/precalc-functions" target="_blank">Ejercicios de Funciones</a></li>
-            </ul>
-        </section>
-
         <section id="juegos">
             <h2>Juegos</h2>
             <p>Diviértete aprendiendo con estos juegos:</p>
@@ -153,16 +138,21 @@
             <h2>Chat</h2>
             <p>Habla con otros participantes:</p>
             <div id="chat-box">
-                <textarea id="chat-input" placeholder="Escribe tu mensaje..."></textarea>
+                <textarea id="chat-input" rows="3" placeholder="Escribe tu mensaje..."></textarea>
                 <button onclick="enviarMensaje()">Enviar</button>
             </div>
         </section>
-         <p>&copy; 2024 Curso Interactivo. Todos los derechos reservados.</p>
-    <p>¿Necesitas ayuda? <a href="mailto:jlf@azc.uam.mx">Contáctanos</a></p>
     </main>
 
-   
+    <footer>
+        <p>&copy; 2024 Curso Interactivo. Todos los derechos reservados.</p>
+        <p>¿Necesitas ayuda? <a href="mailto:jlf@azc.uam.mx">Contáctanos</a></p>
+    </footer>
 
-    <script src="script.js"></script>
+    <script>
+        function enviarMensaje() {
+            alert('Función de chat pendiente de implementar');
+        }
+    </script>
 </body>
 </html>
