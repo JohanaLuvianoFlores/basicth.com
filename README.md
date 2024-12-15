@@ -1,12 +1,98 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Una pequeña introducción al mundo de las matemáticas básicas para ingenieros</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Portal de Matemáticas Básicas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #2c3e50;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            background: #34495e;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        footer {
+            background: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 10px 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        #chat-container {
+            margin-top: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            background-color: #fff;
+        }
+        #messages {
+            height: 200px;
+            overflow-y: scroll;
+            border: 1px solid #ccc;
+            padding: 5px;
+            margin-bottom: 10px;
+            background-color: #f9f9f9;
+        }
+        #messages div {
+            margin-bottom: 10px;
+        }
+        #chat-input {
+            display: flex;
+        }
+        #chat-input input {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+        #chat-input button {
+            padding: 10px;
+            background-color: #2c3e50;
+            color: white;
+            border: none;
+        }
+    </style>
 </head>
-<body style="background-color: white; color: black; border: 5px solid blue;">
+<body>
+    <header>
+        <h1>Portal de Matemáticas Básicas</h1>
+    </header>
+    <nav>
+        <a href="#tareas">Tareas</a>
+        <a href="#juegos">Juegos</a>
+        <a href="#material">Material del Curso</a>
+        <a href="#apoyo">Página de Apoyo</a>
+        <a href="#videos">Videos Tutoriales</a>
+        <a href="#herramientas">Herramientas</a>
+        <a href="#evaluaciones">Evaluaciones</a>
+        <a href="#chat">Chat</a>
+    </nav>
+
     <p style="text-align: center; font-weight: bold;">Esta página es privada. Por favor, envía un correo con tus datos a <a href='mailto:jlf@azc.uam.mx' style='color: blue;'>jlf@azc.uam.mx</a> para solicitar acceso.</p>
     <main>
         <section id="material">
