@@ -187,14 +187,14 @@
             <div id="chat-box">
                <button onclick="enviarMensaje()">Enviar</button>
             </div>
-              </sectio   <textarea id="chat-input" placeholder="Escribe tu mensaje..."></textarea>
-              n>
+              </section>   <textarea id="chat-input" placeholder="Escribe tu mensaje..."></textarea>
+              
     </main>
 
-    <footer>
+   
         <p>&copy; 2024 Curso Interactivo. Todos los derechos reservados.</p>
         <p>¿Necesitas ayuda? <a href="mailto:jlf@azc.uam.mx">Contáctanos</a></p>
-    </footer>
+   
 
     <script src="script.js"></script>
 </body>
