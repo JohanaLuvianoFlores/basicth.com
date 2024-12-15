@@ -164,7 +164,7 @@
                 <li><a href="https://es.khanacademy.org/math/arithmetic" target="_blank">Ejercicios de Aritmética</a></li>
                 <li><a href="https://es.khanacademy.org/math/algebra" target="_blank">Ejercicios de Álgebra</a></li>
                 <li><a href="https://es.khanacademy.org/math/geometry" target="_blank">Ejercicios de Geometría</a></li>
-                <li><a href="https://es.khanacademy.org/math/geometry-analytic" target="_blank">Ejercicios de Geometría Analítica</a></li>
+                <li><a href="https://es.khanacademy.org/math/geometry/hs-geo-analytic-geometry/hs-geo-parallel-perpendicular-eq/test/hs-geo-analytic-geometry-unit-test" target="_blank">Ejercicios de Geometría Analítica</a></li>
                 <li><a href="https://es.khanacademy.org/math/trigonometry" target="_blank">Ejercicios de Trigonometría</a></li>
                 <li><a href="https://es.khanacademy.org/math/precalculus/precalc-functions" target="_blank">Ejercicios de Funciones</a></li>
             </ul>
