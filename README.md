@@ -128,6 +128,21 @@
                 <li><a href="https://www.symbolab.com" target="_blank">Symbolab: Resolver Ecuaciones</a></li>
             </ul>
         </section>
+     <section id="tareas">
+            <h2>Tareas</h2>
+            <p>Aquí puedes subir y acceder a las tareas del curso de matemáticas básicas.</p>
+            <form action="https://ejemplo-servidor.com/subir" method="POST" enctype="multipart/form-data">
+                <label for="upload-tarea">Subir Tarea:</label>
+                <input type="file" id="upload-tarea" name="upload-tarea">
+                <button type="submit">Subir</button>
+            </form>
+            <p><strong>Ejemplos de tareas disponibles:</strong></p>
+            <ul>
+                <li><a href="/tareas/problemas-aritmeticos.pdf" download>Problemas Aritméticos</a></li>
+                <li><a href="/tareas/ecuaciones-basicas.pdf" download>Ecuaciones Básicas</a></li>
+                <li><a href="/tareas/funciones-y-graficas.pdf" download>Funciones y Gráficas</a></li>
+            </ul>
+        </section>
 
 
         <section id="autoevaluaciones">
