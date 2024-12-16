@@ -13,7 +13,7 @@
             border: 0.5cm solid #2c3e50; /* Marco del mismo color del encabezado */
             box-sizing: border-box; /* Incluye el marco en el cálculo del tamaño */
         }
-           *, *::before, *::after {
+        *, *::before, *::after {
             box-sizing: inherit; /* Ajusta el cálculo del tamaño para todos los elementos */
         }
 
@@ -136,9 +136,9 @@
             <h2>Página de Apoyo</h2>
             <p>Accede a recursos adicionales para fortalecer tu aprendizaje de matemáticas:</p>
             <ul> 
-                <li><a href="http://newton.matem.unam.mx/arquimedes/index.html" target="_blank">Proyecto Arquimedes</a></li>
-                <li><a href="https://es.khanacademy.org" target="_blank">Khan Academy: Matemáticas Básicas</a></li>
-                <li><a href="http://canek.uam.mx/?secc=1" target="_blank">Introducción al cálculo</a></li>
+                <li><a href="http://newton.matem.unam.mx/arquimedes/index.html" target="_blank" rel="noopener noreferrer">Proyecto Arquimedes</a></li>
+                <li><a href="https://es.khanacademy.org" target="_blank" rel="noopener noreferrer">Khan Academy: Matemáticas Básicas</a></li>
+                <li><a href="http://canek.uam.mx/?secc=1" target="_blank" rel="noopener noreferrer">Introducción al cálculo</a></li>
             </ul>
         </section>
 
@@ -150,7 +150,7 @@
                 <li><a href="https://www.youtube.com/watch?v=MIUJPkc3x6s&list=PLoxtZmChTSdiqRdRU1OoCR264Isisxdt-">Aritmética</a></li>
                 <li><a href="https://www.youtube.com/watch?v=e5L05pvyMr0&list=PL9SnRnlzoyX1sF5fX83CleyK_SATfbhia">Introducción al Álgebra</a></li>
                 <li><a href="https://www.youtube.com/watch?v=fZQsWTLFR5g&list=PLZeRcx60JO52LhJmL23FKZtQDjHVmtKY2">Funciones</a></li>
-                <li><a href="https://www.youtube.com/watch?v=4T0EnQ4BiVg" target="_blank">Cálculo Diferencial Básico</a></li>
+                <li><a href="https://www.youtube.com/watch?v=4T0EnQ4BiVg" target="_blank" rel="noopener noreferrer">Cálculo Diferencial Básico</a></li>
             </ul>
         </section>
 
@@ -159,9 +159,9 @@
             <h2>Juegos</h2>
             <p>Diviértete aprendiendo con estos juegos:</p>
             <ul>
-                <li><a href="https://mathigon.org/polypad" target="_blank">Exploración Matemática</a></li>
-                <li><a href="https://brilliant.org/" target="_blank">Problemas Desafiantes para Matemáticos</a></li>
-                <li><a href="https://puzzling.stackexchange.com/" target="_blank">Puzzles y Lógica Matemática</a></li>
+                <li><a href="https://mathigon.org/polypad" target="_blank" rel="noopener noreferrer">Exploración Matemática</a></li>
+                <li><a href="https://brilliant.org/" target="_blank" rel="noopener noreferrer">Problemas Desafiantes para Matemáticos</a></li>
+                <li><a href="https://puzzling.stackexchange.com/" target="_blank" rel="noopener noreferrer">Puzzles y Lógica Matemática</a></li>
             </ul>
         </section>
 
