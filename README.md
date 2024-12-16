@@ -124,7 +124,7 @@
             <h2>Material del Curso</h2>
             <p>Descarga documentos y recursos educativos de matemáticas básicas.</p>
             <ul>
-                <li><a href="/materiales/Taller de Matematicas.pdf" download>Libro de Taller de Matemáticas</a></li>
+                <li><a href="https://drive.google.com/file/d/1KEOnChlO5jzvuQN6xRvIqdzs8qrMSj1V/view?usp=sharing" download>Libro de Taller de Matemáticas</a></li>
                 <li><a href="/materiales/introduccion_algebra.pdf" download>Introducción al Álgebra</a></li>
                 <li><a href="/materiales/funciones_basicas.pdf" download>Funciones Básicas</a></li>
                 <li><a href="/materiales/matematicas_para_ingenieria.pdf" download>Matemáticas para Ingeniería</a></li>
