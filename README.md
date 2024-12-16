@@ -125,7 +125,7 @@
             <p>Descarga documentos y recursos educativos de matemáticas básicas.</p>
             <ul>
                 <li><a href="https://drive.google.com/file/d/1KEOnChlO5jzvuQN6xRvIqdzs8qrMSj1V/view?usp=sharing" target="_blank" rel="noopener noreferrer">Libro de Taller de Matemáticas</a></li>
-                <li><a href="/materiales/introduccion_algebra.pdf" download>Introducción al Álgebra</a></li>
+                <li><a href="https://drive.google.com/file/d/1V24coWn2FZLf4OP7-oJMRgfSHR0Zy7cz/view?usp=sharing" target="_blank" rel="noopener noreferrer">Álgebra Baldor</a></li>
                 <li><a href="/materiales/funciones_basicas.pdf" download>Funciones Básicas</a></li>
                 <li><a href="/materiales/matematicas_para_ingenieria.pdf" download>Matemáticas para Ingeniería</a></li>
             </ul>
