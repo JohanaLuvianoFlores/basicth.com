@@ -209,35 +209,3 @@
         const socket = new WebSocket('wss://tu-servidor-websocket.com'); // Cambiar a tu servidor WebSocket real
 
         const mensajesContainer = document.getElementById('chat-messages');
-        const mensajeInput = document.getElementById('chat-message');
-
-        socket.addEventListener('message', (event) => {
-            const mensaje = document.createElement('div');
-            mensaje.textContent = event.data;
-            mensajesContainer.appendChild(mensaje);
-            mensajesContainer.scrollTop = mensajesContainer.scrollHeight;
-
-            // Enviar mensaje al correo
-            fetch('https://formsubmit.co/ajax/jlf@azc.uam.mx', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({
-                    mensaje: event.data
-                })
-            });
-        });
-
-        function enviarMensaje() {
-            const mensaje = mensajeInput.value.trim();
-            if (mensaje) {
-                socket.send(mensaje);
-                mensajeInput.value = '';
-            } else {
-                alert('Por favor, escribe un mensaje antes de enviarlo.');
-            }
-        }
-    </script>
-</body>
-</html>
