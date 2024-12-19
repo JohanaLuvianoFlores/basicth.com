@@ -150,7 +150,7 @@
                 <li><a href="https://www.youtube.com/watch?v=MIUJPkc3x6s&list=PLoxtZmChTSdiqRdRU1OoCR264Isisxdt-">Aritmética</a></li>
                 <li><a href="https://www.youtube.com/watch?v=e5L05pvyMr0&list=PL9SnRnlzoyX1sF5fX83CleyK_SATfbhia">Introducción al Álgebra</a></li>
                 <li><a href="https://www.youtube.com/watch?v=fZQsWTLFR5g&list=PLZeRcx60JO52LhJmL23FKZtQDjHVmtKY2">Funciones</a></li>
-                <li><a href="https://www.youtube.com/watch?v=4T0EnQ4BiVg" target="_blank" rel="noopener noreferrer">Cálculo Diferencial Básico</a></li>
+                <li><a href="https://www.youtube.com/watch?v=rX0kSP4aQIQ&list=PLDrYCU02ie-F3ngZ3VHIuaDl5Ay2Ly5Ik" target="_blank" rel="noopener noreferrer">Precálculo</a></li>
             </ul>
         </section>
 
