@@ -160,6 +160,10 @@
             <h2>Juegos</h2>
             <p>Diviértete aprendiendo con estos juegos:</p>
             <ul>
+                <li><a href="https://www.educaplay.com" target="_blank">Educaplay: Juegos Matemáticos</a></li>
+                <li><a href="https://www.cerebriti.com/matematicas" target="_blank">Cerebriti: Retos Matemáticos</a></li>
+                <li><a href="https://www.mathplayground.com" target="_blank">Math Playground</a></li>
+
                 <li><a href="https://mathigon.org/polypad" target="_blank" rel="noopener noreferrer">Exploración Matemática</a></li>
                 <li><a href="https://brilliant.org/" target="_blank" rel="noopener noreferrer">Problemas Desafiantes para Matemáticos</a></li>
                 <li><a href="https://puzzling.stackexchange.com/" target="_blank" rel="noopener noreferrer">Puzzles y Lógica Matemática</a></li>
