@@ -164,15 +164,6 @@
                 <li><a href="https://brilliant.org/" target="_blank" rel="noopener noreferrer">Problemas Desafiantes para Matemáticos</a></li>
                 <li><a href="https://puzzling.stackexchange.com/" target="_blank" rel="noopener noreferrer">Puzzles y Lógica Matemática</a></li>
             </ul>
-                    <section id="herramientas">
-            <h2>Herramientas Matemáticas</h2>
-            <p>Utiliza herramientas en línea para resolver problemas complejos y visualizar conceptos:</p>
-            <ul>
-                <li><a href="https://www.geogebra.org" target="_blank">GeoGebra: Herramienta Gráfica</a></li>
-                <li><a href="https://www.desmos.com" target="_blank">Desmos: Calculadora Gráfica</a></li>
-                <li><a href="https://www.symbolab.com" target="_blank">Symbolab: Resolver Ecuaciones</a></li>
-            </ul>
-
         </section>
 
         <!-- Sección Chat -->
@@ -195,17 +186,23 @@
     </footer>
 
     <script>
-        function enviarMensaje() {
-            const mensajeInput = document.getElementById('chat-message');
-            const mensajesContainer = document.getElementById('chat-messages');
+        const socket = new WebSocket('wss://example.com/chat'); // Cambiar a tu servidor WebSocket real
 
+        const mensajesContainer = document.getElementById('chat-messages');
+        const mensajeInput = document.getElementById('chat-message');
+
+        socket.addEventListener('message', (event) => {
+            const mensaje = document.createElement('div');
+            mensaje.textContent = event.data;
+            mensajesContainer.appendChild(mensaje);
+            mensajesContainer.scrollTop = mensajesContainer.scrollHeight;
+        });
+
+        function enviarMensaje() {
             const mensaje = mensajeInput.value.trim();
             if (mensaje) {
-                const nuevoMensaje = document.createElement('div');
-                nuevoMensaje.textContent = mensaje;
-                mensajesContainer.appendChild(nuevoMensaje);
+                socket.send(mensaje);
                 mensajeInput.value = '';
-                mensajesContainer.scrollTop = mensajesContainer.scrollHeight;
             } else {
                 alert('Por favor, escribe un mensaje antes de enviarlo.');
             }
