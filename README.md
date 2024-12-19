@@ -10,11 +10,11 @@
             margin: 0;
             padding: 0;
             min-height: 100%;
-            border: 0.5cm solid #2c3e50; /* Marco del mismo color del encabezado */
-            box-sizing: border-box; /* Incluye el marco en el cálculo del tamaño */
+            border: 0.5cm solid #2c3e50;
+            box-sizing: border-box;
         }
         *, *::before, *::after {
-            box-sizing: inherit; /* Ajusta el cálculo del tamaño para todos los elementos */
+            box-sizing: inherit;
         }
 
         body {
@@ -50,7 +50,7 @@
         }
 
         main {
-            flex-grow: 1; /* Permite que el contenido principal ocupe todo el espacio necesario */
+            flex-grow: 1;
             padding: 20px;
         }
 
@@ -164,6 +164,15 @@
                 <li><a href="https://brilliant.org/" target="_blank" rel="noopener noreferrer">Problemas Desafiantes para Matemáticos</a></li>
                 <li><a href="https://puzzling.stackexchange.com/" target="_blank" rel="noopener noreferrer">Puzzles y Lógica Matemática</a></li>
             </ul>
+                    <section id="herramientas">
+            <h2>Herramientas Matemáticas</h2>
+            <p>Utiliza herramientas en línea para resolver problemas complejos y visualizar conceptos:</p>
+            <ul>
+                <li><a href="https://www.geogebra.org" target="_blank">GeoGebra: Herramienta Gráfica</a></li>
+                <li><a href="https://www.desmos.com" target="_blank">Desmos: Calculadora Gráfica</a></li>
+                <li><a href="https://www.symbolab.com" target="_blank">Symbolab: Resolver Ecuaciones</a></li>
+            </ul>
+
         </section>
 
         <!-- Sección Chat -->
