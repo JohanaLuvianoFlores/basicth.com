@@ -139,6 +139,7 @@
                 <li><a href="http://newton.matem.unam.mx/arquimedes/index.html" target="_blank" rel="noopener noreferrer">Proyecto Arquimedes</a></li>
                 <li><a href="https://es.khanacademy.org" target="_blank" rel="noopener noreferrer">Khan Academy: Matemáticas Básicas</a></li>
                 <li><a href="http://canek.uam.mx/?secc=1" target="_blank" rel="noopener noreferrer">Introducción al cálculo</a></li>
+                <li><a href="https://portalacademico.cch.unam.mx/alumno/matematicas1" target="_blank" rel="noopener noreferrer">Matemáticas</a></li>
             </ul>
         </section>
 
@@ -150,7 +151,7 @@
                 <li><a href="https://www.youtube.com/watch?v=MIUJPkc3x6s&list=PLoxtZmChTSdiqRdRU1OoCR264Isisxdt-">Aritmética</a></li>
                 <li><a href="https://www.youtube.com/watch?v=e5L05pvyMr0&list=PL9SnRnlzoyX1sF5fX83CleyK_SATfbhia">Introducción al Álgebra</a></li>
                 <li><a href="https://www.youtube.com/watch?v=fZQsWTLFR5g&list=PLZeRcx60JO52LhJmL23FKZtQDjHVmtKY2">Funciones</a></li>
-                <li><a href="https://www.youtube.com/watch?v=rX0kSP4aQIQ&list=PLDrYCU02ie-F3ngZ3VHIuaDl5Ay2Ly5Ik" target="_blank" rel="noopener noreferrer">Precálculo</a></li>
+                <li><a href="https://www.youtube.com/watch?v=rX0kSP4aQIQ&list=PLDrYCU02ie-F3ngZ3VHIuaDl5Ay2Ly5Ik">Precálculo</a></li>
             </ul>
         </section>
 
