@@ -169,6 +169,16 @@
                 <li><a href="https://puzzling.stackexchange.com/" target="_blank" rel="noopener noreferrer">Puzzles y Lógica Matemática</a></li>
             </ul>
         </section>
+        <section id="herramientas">
+            <h2>Herramientas Matemáticas</h2>
+            <p>Utiliza herramientas en línea para resolver problemas complejos y visualizar conceptos:</p>
+            <ul>
+                <li><a href="https://www.geogebra.org" target="_blank">GeoGebra: Herramienta Gráfica</a></li>
+                <li><a href="https://www.desmos.com" target="_blank">Desmos: Calculadora Gráfica</a></li>
+                <li><a href="https://www.symbolab.com" target="_blank">Symbolab: Resolver Ecuaciones</a></li>
+            </ul>
+        </section>
+
 
         <!-- Sección Chat -->
         <section id="chat">
