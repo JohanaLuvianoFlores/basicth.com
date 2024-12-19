@@ -200,7 +200,7 @@
     </footer>
 
     <script>
-        const socket = new WebSocket('wss://example.com/chat'); // Cambiar a tu servidor WebSocket real
+       const socket = new WebSocket('ws://localhost:8080'); // Cambiar a tu servidor WebSocket real
 
         const mensajesContainer = document.getElementById('chat-messages');
         const mensajeInput = document.getElementById('chat-message');
