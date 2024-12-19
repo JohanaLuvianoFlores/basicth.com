@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portal interactivo para aprender matemáticas básicas con recursos, videos, juegos y herramientas.">
+    <meta name="author" content="Curso Interactivo">
+    <meta name="keywords" content="matemáticas, aprendizaje, juegos, herramientas, videos tutoriales">
     <title>Portal de Matemáticas Básicas</title>
     <style>
         /* Configuración básica del marco */
@@ -102,6 +105,25 @@
         button:hover {
             background-color: #34495e;
         }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 10px;
+        }
+
+        input, textarea {
+            width: 100%;
+            max-width: 500px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .submit-button {
+            align-self: center;
+        }
     </style>
 </head>
 <body>
@@ -117,6 +139,7 @@
         <a href="#tareas">Tareas</a>
         <a href="#juegos">Juegos</a>
         <a href="#chat">Chat</a>
+        <a href="#contacto">Contacto</a>
     </nav>
     <main>
         <!-- Sección Material del Curso -->
@@ -136,61 +159,44 @@
             <h2>Página de Apoyo</h2>
             <p>Accede a recursos adicionales para fortalecer tu aprendizaje de matemáticas:</p>
             <ul> 
-                <li><a href="http://newton.matem.unam.mx/arquimedes/index.html" target="_blank" rel="noopener noreferrer">Proyecto Arquimedes</a></li>
+                <li><a href="https://newton.matem.unam.mx/arquimedes/index.html" target="_blank" rel="noopener noreferrer">Proyecto Arquimedes</a></li>
                 <li><a href="https://es.khanacademy.org" target="_blank" rel="noopener noreferrer">Khan Academy: Matemáticas Básicas</a></li>
-                <li><a href="http://canek.uam.mx/?secc=1" target="_blank" rel="noopener noreferrer">Introducción al cálculo</a></li>
+                <li><a href="https://canek.uam.mx/?secc=1" target="_blank" rel="noopener noreferrer">Introducción al cálculo</a></li>
                 <li><a href="https://portalacademico.cch.unam.mx/alumno/matematicas1" target="_blank" rel="noopener noreferrer">Matemáticas</a></li>
             </ul>
         </section>
 
-        <!-- Sección Videos Tutoriales -->
-        <section id="videos">
-            <h2>Videos Tutoriales</h2>
-            <p>Explora videos que explican conceptos clave paso a paso:</p>
-            <ul>  
-                <li><a href="https://www.youtube.com/watch?v=MIUJPkc3x6s&list=PLoxtZmChTSdiqRdRU1OoCR264Isisxdt-">Aritmética</a></li>
-                <li><a href="https://www.youtube.com/watch?v=e5L05pvyMr0&list=PL9SnRnlzoyX1sF5fX83CleyK_SATfbhia">Introducción al Álgebra</a></li>
-                <li><a href="https://www.youtube.com/watch?v=fZQsWTLFR5g&list=PLZeRcx60JO52LhJmL23FKZtQDjHVmtKY2">Funciones</a></li>
-                <li><a href="https://www.youtube.com/watch?v=rX0kSP4aQIQ&list=PLDrYCU02ie-F3ngZ3VHIuaDl5Ay2Ly5Ik">Precálculo</a></li>
-            </ul>
-        </section>
+        <!-- Sección Contacto -->
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Envíanos un mensaje:</p>
+            <form action="mailto:jlf@azc.uam.mx" method="post" enctype="text/plain">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
 
-        <!-- Sección Juegos -->
-        <section id="juegos">
-            <h2>Juegos</h2>
-            <p>Diviértete aprendiendo con estos juegos:</p>
-            <ul>
-                <li><a href="https://www.educaplay.com" target="_blank">Educaplay: Juegos Matemáticos</a></li>
-                <li><a href="https://www.cerebriti.com/matematicas" target="_blank">Cerebriti: Retos Matemáticos</a></li>
-                <li><a href="https://www.mathplayground.com" target="_blank">Math Playground</a></li>
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" placeholder="Tu correo electrónico" required>
 
-                <li><a href="https://mathigon.org/polypad" target="_blank" rel="noopener noreferrer">Exploración Matemática</a></li>
-                <li><a href="https://brilliant.org/" target="_blank" rel="noopener noreferrer">Problemas Desafiantes para Matemáticos</a></li>
-                <li><a href="https://puzzling.stackexchange.com/" target="_blank" rel="noopener noreferrer">Puzzles y Lógica Matemática</a></li>
-            </ul>
-        </section>
-        <section id="herramientas">
-            <h2>Herramientas Matemáticas</h2>
-            <p>Utiliza herramientas en línea para resolver problemas complejos y visualizar conceptos:</p>
-            <ul>
-                <li><a href="https://www.geogebra.org" target="_blank">GeoGebra: Herramienta Gráfica</a></li>
-                <li><a href="https://www.desmos.com" target="_blank">Desmos: Calculadora Gráfica</a></li>
-                <li><a href="https://www.symbolab.com" target="_blank">Symbolab: Resolver Ecuaciones</a></li>
-            </ul>
-        </section>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje" required></textarea>
 
+                <button type="submit" class="submit-button">Enviar</button>
+            </form>
+        </section>
 
         <!-- Sección Chat -->
         <section id="chat">
             <h2>Chat</h2>
             <p>Habla con otros participantes:</p>
             <div id="chat-box">
-                <div id="chat-messages" aria-live="polite">
+                <div id="chat-messages" aria-live="polite" aria-label="Mensajes del chat">
                     <!-- Aquí se mostrarán los mensajes -->
                 </div>
-                <label for="chat-message">Escribe tu mensaje:</label>
-                <textarea id="chat-message" rows="3" placeholder="Escribe tu mensaje..." required></textarea>
-                <button type="button" onclick="enviarMensaje()">Enviar</button>
+                <form onsubmit="enviarMensaje(); return false;">
+                    <label for="chat-message">Escribe tu mensaje:</label>
+                    <textarea id="chat-message" rows="3" placeholder="Escribe tu mensaje..." required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
             </div>
         </section>
     </main>
@@ -200,7 +206,7 @@
     </footer>
 
     <script>
-       const socket = new WebSocket('ws://localhost:8080'); // Cambiar a tu servidor WebSocket real
+        const socket = new WebSocket('wss://tu-servidor-websocket.com'); // Cambiar a tu servidor WebSocket real
 
         const mensajesContainer = document.getElementById('chat-messages');
         const mensajeInput = document.getElementById('chat-message');
@@ -210,6 +216,17 @@
             mensaje.textContent = event.data;
             mensajesContainer.appendChild(mensaje);
             mensajesContainer.scrollTop = mensajesContainer.scrollHeight;
+
+            // Enviar mensaje al correo
+            fetch('https://formsubmit.co/ajax/jlf@azc.uam.mx', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    mensaje: event.data
+                })
+            });
         });
 
         function enviarMensaje() {
