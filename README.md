@@ -166,7 +166,23 @@
             </ul>
         </section>
 
-        
+        <!-- Sección Contacto -->
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Envíanos un mensaje:</p>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" placeholder="Tu correo electrónico" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje" required></textarea>
+
+                <button type="submit" class="submit-button">Enviar</button>
+            </form>
+        </section>
 
         <!-- Sección Chat -->
         <section id="chat">
@@ -193,3 +209,33 @@
         const socket = new WebSocket('wss://tu-servidor-websocket.com'); // Cambiar a tu servidor WebSocket real
 
         const mensajesContainer = document.getElementById('chat-messages');
+        const mensajeInput = document.getElementById('chat-message');
+
+        // Manejar mensajes recibidos
+        socket.onmessage = function(event) {
+            const mensaje = document.createElement('div');
+            mensaje.textContent = event.data; // Asume que los mensajes son texto simple
+            mensajesContainer.appendChild(mensaje);
+            mensajesContainer.scrollTop = mensajesContainer.scrollHeight; // Desplazarse al último mensaje
+        };
+
+        // Enviar mensaje
+        function enviarMensaje() {
+            const mensaje = mensajeInput.value.trim();
+            if (mensaje) {
+                socket.send(mensaje);
+                mensajeInput.value = ''; // Limpiar el campo después de enviar
+            }
+        }
+
+        // Manejar errores de conexión
+        socket.onerror = function(error) {
+            console.error('WebSocket Error:', error);
+        };
+
+        socket.onclose = function() {
+            console.log('Conexión cerrada.');
+        };
+    </script>
+</body>
+</html>
