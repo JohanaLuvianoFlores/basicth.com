@@ -170,7 +170,7 @@
         <section id="contacto">
             <h2>Contacto</h2>
             <p>Envíanos un mensaje:</p>
-            <form>
+            <form action="mailto:jlf@azc.uam.mx" method="post" enctype="text/plain">
                 <label for="nombre">Nombre:</label>
                 <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
 
@@ -202,7 +202,7 @@
     </main>
     <footer>
         <p>&copy; 2024 Curso Interactivo. Todos los derechos reservados.</p>
-        <p>¿Necesitas ayuda? Contáctanos</p>
+        <p>¿Necesitas ayuda? <a href="mailto:jlf@azc.uam.mx">Contáctanos</a></p>
     </footer>
 
     <script>
@@ -211,31 +211,33 @@
         const mensajesContainer = document.getElementById('chat-messages');
         const mensajeInput = document.getElementById('chat-message');
 
-        // Manejar mensajes recibidos
-        socket.onmessage = function(event) {
+        socket.addEventListener('message', (event) => {
             const mensaje = document.createElement('div');
-            mensaje.textContent = event.data; // Asume que los mensajes son texto simple
+            mensaje.textContent = event.data;
             mensajesContainer.appendChild(mensaje);
-            mensajesContainer.scrollTop = mensajesContainer.scrollHeight; // Desplazarse al último mensaje
-        };
+            mensajesContainer.scrollTop = mensajesContainer.scrollHeight;
 
-        // Enviar mensaje
+            // Enviar mensaje al correo
+            fetch('https://formsubmit.co/ajax/jlf@azc.uam.mx', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    mensaje: event.data
+                })
+            });
+        });
+
         function enviarMensaje() {
             const mensaje = mensajeInput.value.trim();
             if (mensaje) {
                 socket.send(mensaje);
-                mensajeInput.value = ''; // Limpiar el campo después de enviar
+                mensajeInput.value = '';
+            } else {
+                alert('Por favor, escribe un mensaje antes de enviarlo.');
             }
         }
-
-        // Manejar errores de conexión
-        socket.onerror = function(error) {
-            console.error('WebSocket Error:', error);
-        };
-
-        socket.onclose = function() {
-            console.log('Conexión cerrada.');
-        };
     </script>
 </body>
 </html>
