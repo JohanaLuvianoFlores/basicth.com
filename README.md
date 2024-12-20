@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portal de Matemáticas Básicas</title>
     <style>
-        /* Estructura básica */
+        /* Configuración básica del marco */
         html {
-            height: 100%; /* Asegura que el html cubra toda la ventana */
-            box-sizing: border-box; /* Incluye el borde en el cálculo del tamaño */
-            border: 0.5cm solid #2c3e50; /* Marco azul de 0.5 cm */
+            margin: 0;
+            padding: 0;
+            min-height: 100%;
+            border: 0.5cm solid #2c3e50;
+            box-sizing: border-box;
         }
-
         *, *::before, *::after {
-            box-sizing: inherit; /* Asegura el cálculo correcto para todos los elementos */
+            box-sizing: inherit;
         }
 
         body {
@@ -23,9 +24,8 @@
             background-color: #f4f4f4;
             display: flex;
             flex-direction: column;
-            min-height: 100%; /* Asegura que el contenido siempre llene la ventana */
+            min-height: 100%;
         }
-
         header {
             background: #2c3e50;
             color: #fff;
@@ -50,7 +50,7 @@
         }
 
         main {
-            flex-grow: 1; /* Ocupa el espacio restante */
+            flex-grow: 1;
             padding: 20px;
         }
 
@@ -122,12 +122,12 @@
         <!-- Sección Material del Curso -->
         <section id="material">
             <h2>Material del Curso</h2>
-            <p>Descarga documentos, guías y recursos educativos de matemáticas básicas.</p>
+            <p>Descarga documentos y recursos educativos de matemáticas básicas.</p>
             <ul>
-                <li><a href="/materiales/guia_aritmetica.pdf" download>Guía de Aritmética</a></li>
-                <li><a href="/materiales/introduccion_algebra.pdf" download>Introducción al Álgebra</a></li>
-                <li><a href="/materiales/funciones_basicas.pdf" download>Funciones Básicas</a></li>
-                <li><a href="/materiales/matematicas_para_ingenieria.pdf" download>Matemáticas para Ingeniería</a></li>
+                <li><a href="https://drive.google.com/file/d/1KEOnChlO5jzvuQN6xRvIqdzs8qrMSj1V/view?usp=sharing" target="_blank" rel="noopener noreferrer">Libro de Taller de Matemáticas</a></li>
+                <li><a href="https://drive.google.com/file/d/1V24coWn2FZLf4OP7-oJMRgfSHR0Zy7cz/view?usp=sharing" target="_blank" rel="noopener noreferrer">Álgebra Baldor</a></li>
+                <li><a href="https://drive.google.com/file/d/1FXqNL3ZgGjZgfGHeBKSpMfJ_4isrfp8E/view?usp=sharing" target="_blank" rel="noopener noreferrer">Geometría Analítica</a></li>
+                <li><a href="https://drive.google.com/file/d/19ZffaZCbwRuRp_ny-KyFDyv2PKTvu3ez/view?usp=sharing" target="_blank" rel="noopener noreferrer">Cálculo</a></li>
             </ul>
         </section>
 
@@ -136,9 +136,10 @@
             <h2>Página de Apoyo</h2>
             <p>Accede a recursos adicionales para fortalecer tu aprendizaje de matemáticas:</p>
             <ul> 
-                <li><a href="http://newton.matem.unam.mx/arquimedes/index.html" target="_blank">Proyecto Arquimedes</a></li>
-                <li><a href="https://es.khanacademy.org" target="_blank">Khan Academy: Matemáticas Básicas</a></li>
-                <li><a href="http://canek.uam.mx/?secc=1" target="_blank">Introducción al cálculo</a></li>
+                <li><a href="http://newton.matem.unam.mx/arquimedes/index.html" target="_blank" rel="noopener noreferrer">Proyecto Arquimedes</a></li>
+                <li><a href="https://es.khanacademy.org" target="_blank" rel="noopener noreferrer">Khan Academy: Matemáticas Básicas</a></li>
+                <li><a href="http://canek.uam.mx/?secc=1" target="_blank" rel="noopener noreferrer">Introducción al cálculo</a></li>
+                <li><a href="https://portalacademico.cch.unam.mx/alumno/matematicas1" target="_blank" rel="noopener noreferrer">Matemáticas</a></li>
             </ul>
         </section>
 
@@ -150,11 +151,24 @@
                 <li><a href="https://www.youtube.com/watch?v=MIUJPkc3x6s&list=PLoxtZmChTSdiqRdRU1OoCR264Isisxdt-">Aritmética</a></li>
                 <li><a href="https://www.youtube.com/watch?v=e5L05pvyMr0&list=PL9SnRnlzoyX1sF5fX83CleyK_SATfbhia">Introducción al Álgebra</a></li>
                 <li><a href="https://www.youtube.com/watch?v=fZQsWTLFR5g&list=PLZeRcx60JO52LhJmL23FKZtQDjHVmtKY2">Funciones</a></li>
-                <li><a href="https://www.youtube.com/watch?v=4T0EnQ4BiVg" target="_blank">Cálculo Diferencial Básico</a></li>
+                <li><a href="https://www.youtube.com/watch?v=rX0kSP4aQIQ&list=PLDrYCU02ie-F3ngZ3VHIuaDl5Ay2Ly5Ik">Precálculo</a></li>
             </ul>
         </section>
 
-        <!-- Sección Herramientas Matemáticas -->
+        <!-- Sección Juegos -->
+        <section id="juegos">
+            <h2>Juegos</h2>
+            <p>Diviértete aprendiendo con estos juegos:</p>
+            <ul>
+                <li><a href="https://www.educaplay.com" target="_blank">Educaplay: Juegos Matemáticos</a></li>
+                <li><a href="https://www.cerebriti.com/matematicas" target="_blank">Cerebriti: Retos Matemáticos</a></li>
+                <li><a href="https://www.mathplayground.com" target="_blank">Math Playground</a></li>
+
+                <li><a href="https://mathigon.org/polypad" target="_blank" rel="noopener noreferrer">Exploración Matemática</a></li>
+                <li><a href="https://brilliant.org/" target="_blank" rel="noopener noreferrer">Problemas Desafiantes para Matemáticos</a></li>
+                <li><a href="https://puzzling.stackexchange.com/" target="_blank" rel="noopener noreferrer">Puzzles y Lógica Matemática</a></li>
+            </ul>
+        </section>
         <section id="herramientas">
             <h2>Herramientas Matemáticas</h2>
             <p>Utiliza herramientas en línea para resolver problemas complejos y visualizar conceptos:</p>
@@ -165,18 +179,6 @@
             </ul>
         </section>
 
-        <!-- Sección Juegos -->
-        <section id="juegos">
-            <h2>Juegos</h2>
-            <p>Diviértete aprendiendo con estos juegos:</p>
-            <ul>
-                <li><a href="https://mathigon.org/polypad" target="_blank">Exploración Matemática</a></li>
-                <li><a href="https://brilliant.org/" target="_blank">Problemas Desafiantes para Matemáticos</a></li>
-                <li><a href="https://puzzling.stackexchange.com/" target="_blank">Puzzles y Lógica Matemática</a></li>
-                <li><a href="https://www.geogebra.org/classic" target="_blank">Geometría Interactiva</a></li>
-                <li><a href="https://mathsstarters.net/" target="_blank">Desafíos Matemáticos Rápidos</a></li>
-            </ul>
-        </section>
 
         <!-- Sección Chat -->
         <section id="chat">
@@ -198,27 +200,23 @@
     </footer>
 
     <script>
+       const socket = new WebSocket('ws://localhost:8080'); // Cambiar a tu servidor WebSocket real
+
+        const mensajesContainer = document.getElementById('chat-messages');
+        const mensajeInput = document.getElementById('chat-message');
+
+        socket.addEventListener('message', (event) => {
+            const mensaje = document.createElement('div');
+            mensaje.textContent = event.data;
+            mensajesContainer.appendChild(mensaje);
+            mensajesContainer.scrollTop = mensajesContainer.scrollHeight;
+        });
+
         function enviarMensaje() {
-            const mensajeInput = document.getElementById('chat-message');
-            const mensajesContainer = document.getElementById('chat-messages');
-
-            // Obtener el mensaje
             const mensaje = mensajeInput.value.trim();
-
-            // Validar si el mensaje no está vacío
             if (mensaje) {
-                // Crear un nuevo elemento para mostrar el mensaje
-                const nuevoMensaje = document.createElement('div');
-                nuevoMensaje.textContent = mensaje;
-
-                // Agregar el mensaje al contenedor
-                mensajesContainer.appendChild(nuevoMensaje);
-
-                // Limpiar el campo de texto
+                socket.send(mensaje);
                 mensajeInput.value = '';
-
-                // Hacer scroll automático hacia el último mensaje
-                mensajesContainer.scrollTop = mensajesContainer.scrollHeight;
             } else {
                 alert('Por favor, escribe un mensaje antes de enviarlo.');
             }
