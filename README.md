@@ -166,23 +166,7 @@
             </ul>
         </section>
 
-        <!-- Sección Contacto -->
-        <section id="contacto">
-            <h2>Contacto</h2>
-            <p>Envíanos un mensaje:</p>
-            <form action="mailto:jlf@azc.uam.mx" method="post" enctype="text/plain">
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
-
-                <label for="correo">Correo Electrónico:</label>
-                <input type="email" id="correo" name="correo" placeholder="Tu correo electrónico" required>
-
-                <label for="mensaje">Mensaje:</label>
-                <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje" required></textarea>
-
-                <button type="submit" class="submit-button">Enviar</button>
-            </form>
-        </section>
+        
 
         <!-- Sección Chat -->
         <section id="chat">
@@ -202,7 +186,7 @@
     </main>
     <footer>
         <p>&copy; 2024 Curso Interactivo. Todos los derechos reservados.</p>
-        <p>¿Necesitas ayuda? <a href="mailto:jlf@azc.uam.mx">Contáctanos</a></p>
+        <p>¿Necesitas ayuda? Contáctanos</p>
     </footer>
 
     <script>
