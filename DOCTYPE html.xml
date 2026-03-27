@@ -1,12 +1,3 @@
-<?php
-session_start();
-
-if (!isset($_SESSION["logged_in"]) || $_SESSION["logged_in"] !== true) {
-    header("Location: login.php");
-    exit();
-}
-?>
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -18,21 +9,10 @@ if (!isset($_SESSION["logged_in"]) || $_SESSION["logged_in"] !== true) {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #e6f2ff;
-            display: flex;
-            justify-content: center;
-        }
-
-        .container {
-            width: 90%;
-            max-width: 1000px;
-            margin: 30px 0;
-            border: 8px solid #007BFF;
             background-color: #f4f4f4;
             display: flex;
             flex-direction: column;
-            min-height: 90vh;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            min-height: 100vh;
         }
 
         header {
@@ -73,69 +53,77 @@ if (!isset($_SESSION["logged_in"]) || $_SESSION["logged_in"] !== true) {
             color: #fff;
             text-align: center;
             padding: 15px 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
         }
 
         footer a {
             color: #ffcccc;
         }
+
+        /* Mejoras para footer cuando el contenido es poco */
+        footer {
+            position: relative;
+            margin-top: auto;
+        }
     </style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Portal de Matemáticas Básicas</h1>
-        </header>
+    <header>
+        <h1>Portal de Matemáticas Básicas</h1>
+    </header>
 
-        <nav>
-            <a href="#material">Material del Curso</a>
-            <a href="#apoyo">Página de Apoyo</a>
-            <a href="#videos">Videos Tutoriales</a>
-            <a href="#herramientas">Herramientas</a>
-            <a href="#evaluaciones">Evaluaciones</a>
-            <a href="#tareas">Tareas</a>
-            <a href="#juegos">Juegos</a>
-            <a href="#chat">Chat</a>
-        </nav>
+    <nav>
+        <a href="#material">Material del Curso</a>
+        <a href="#apoyo">Página de Apoyo</a>
+        <a href="#videos">Videos Tutoriales</a>
+        <a href="#herramientas">Herramientas</a>
+        <a href="#evaluaciones">Evaluaciones</a>
+        <a href="#tareas">Tareas</a>
+        <a href="#juegos">Juegos</a>
+        <a href="#chat">Chat</a>
+    </nav>
 
-        <main>
-            <section id="material">
-                <h2>Material del Curso</h2>
-                <p>Descarga documentos, guías y recursos educativos de matemáticas básicas.</p>
-                <ul>
-                    <li><a href="/materiales/guia_aritmetica.pdf" download>Guía de Aritmética</a></li>
-                    <li><a href="/materiales/introduccion_algebra.pdf" download>Introducción al Álgebra</a></li>
-                    <li><a href="/materiales/funciones_basicas.pdf" download>Funciones Básicas</a></li>
-                    <li><a href="/materiales/matematicas_para_ingenieria.pdf" download>Matemáticas para Ingeniería</a></li>
-                </ul>
-            </section>
+    <main>
+        <section id="material">
+            <h2>Material del Curso</h2>
+            <p>Descarga documentos, guías y recursos educativos de matemáticas básicas.</p>
+            <ul>
+                <li><a href="/materiales/guia_aritmetica.pdf" download>Guía de Aritmética</a></li>
+                <li><a href="/materiales/introduccion_algebra.pdf" download>Introducción al Álgebra</a></li>
+                <li><a href="/materiales/funciones_basicas.pdf" download>Funciones Básicas</a></li>
+                <li><a href="/materiales/matematicas_para_ingenieria.pdf" download>Matemáticas para Ingeniería</a></li>
+            </ul>
+        </section>
 
-            <section id="apoyo">
-                <h2>Página de Apoyo</h2>
-                <p>Accede a recursos adicionales para fortalecer tu aprendizaje de matemáticas:</p>
-                <ul>
-                    <li><a href="http://newton.matem.unam.mx/arquimedes/index.html" target="_blank">Proyecto Arquímedes</a></li>
-                    <li><a href="https://es.khanacademy.org" target="_blank">Khan Academy: Matemáticas Básicas</a></li>
-                    <li><a href="http://canek.uam.mx/?secc=1" target="_blank">Introducción al Cálculo</a></li>
-                </ul>
-            </section>
+        <section id="apoyo">
+            <h2>Página de Apoyo</h2>
+            <p>Accede a recursos adicionales para fortalecer tu aprendizaje de matemáticas:</p>
+            <ul>
+                <li><a href="http://newton.matem.unam.mx/arquimedes/index.html" target="_blank">Proyecto Arquímedes</a></li>
+                <li><a href="https://es.khanacademy.org" target="_blank">Khan Academy: Matemáticas Básicas</a></li>
+                <li><a href="http://canek.uam.mx/?secc=1" target="_blank">Introducción al Cálculo</a></li>
+            </ul>
+        </section>
 
-            <section id="videos">
-                <h2>Videos Tutoriales</h2>
-                <p>Explora videos que explican conceptos clave paso a paso:</p>
-                <ul>
-                    <li><a href="https://www.youtube.com/watch?v=MIUJPkc3x6s&list=PLoxtZmChTSdiqRdRU1OoCR264Isisxdt-" target="_blank">Aritmética</a></li>
-                    <li><a href="https://www.youtube.com/watch?v=e5L05pvyMr0&list=PL9SnRnlzoyX1sF5fX83CleyK_SATfbhia" target="_blank">Introducción al Álgebra</a></li>
-                    <li><a href="https://www.youtube.com/watch?v=fZQsWTLFR5g&list=PLZeRcx60JO52LhJmL23FKZtQDjHVmtKY2" target="_blank">Funciones</a></li>
-                    <li><a href="https://www.youtube.com/watch?v=video3" target="_blank">Cálculo Diferencial Básico</a></li>
-                </ul>
-            </section>
-        </main>
+        <section id="videos">
+            <h2>Videos Tutoriales</h2>
+            <p>Explora videos que explican conceptos clave paso a paso:</p>
+            <ul>
+                <li><a href="https://www.youtube.com/watch?v=MIUJPkc3x6s&list=PLoxtZmChTSdiqRdRU1OoCR264Isisxdt-" target="_blank">Aritmética</a></li>
+                <li><a href="https://www.youtube.com/watch?v=e5L05pvyMr0&list=PL9SnRnlzoyX1sF5fX83CleyK_SATfbhia" target="_blank">Introducción al Álgebra</a></li>
+                <li><a href="https://www.youtube.com/watch?v=fZQsWTLFR5g&list=PLZeRcx60JO52LhJmL23FKZtQDjHVmtKY2" target="_blank">Funciones</a></li>
+                <li><a href="https://www.youtube.com/watch?v=video3" target="_blank">Cálculo Diferencial Básico</a></li>
+            </ul>
+        </section>
+    </main>
 
-        <footer>
-            <p>&copy; 2024 Curso Interactivo. Todos los derechos reservados.</p>
-            <p>¿Necesitas ayuda? <a href="mailto:jlf@azc.uam.mx">Contáctanos</a></p>
-            <p><a href="logout.php" style="color: red;">Cerrar Sesión</a></p>
-        </footer>
-    </div>
+    <footer>
+        <p>&copy; 2024 Curso Interactivo. Todos los derechos reservados.</p>
+        <p>¿Necesitas ayuda? <a href="mailto:jlf@azc.uam.mx">Contáctanos</a></p>
+        <!-- Como GitHub Pages no soporta PHP, eliminamos la referencia a logout.php -->
+        <p><a href="javascript:void(0)" onclick="alert('Cierre de sesión implementado con Firebase o similar.');" style="color: red;">Cerrar Sesión</a></p>
+    </footer>
 </body>
 </html>
